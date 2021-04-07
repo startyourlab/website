@@ -5,16 +5,23 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Default Infima variables here. See https://docusaurus.io/docs/styling-layout */
 :root {
-  --ifm-color-primary: #4c82A9;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #4c82a9;
+  --ifm-color-primary-dark: #447598;
+  --ifm-color-primary-darker: #416f90;
+  --ifm-color-primary-darkest: #355b76;
+  --ifm-color-primary-light: #598eb4;
+  --ifm-color-primary-lighter: #6294b8;
+  --ifm-color-primary-lightest: #7ba5c4;
   --ifm-code-font-size: 95%;
+}
+
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #4e89e8;
+  --ifm-color-primary-dark: #5a91ea;
+  /* any other colors you wish to overwrite */
 }
 
 .docusaurus-highlight-code-line {

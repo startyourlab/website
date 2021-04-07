@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Start Your Lab',
   tagline: 'An online starter kit for team science. Instructions included.',
-  url: 'https://startyourlab.com',
+  url: 'https://www.startyourlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -20,10 +20,10 @@ module.exports = {
     },
     image: 'img/startyourlab.png',
     navbar: {
-      //title: 'Start Your Lab',
+      title: 'Start Your Lab',
       logo: {
-        alt: 'Start Your Lab Logo',
-        src: 'img/logo.svg',
+        alt: 'Start Your Lab Brand Mark',
+        src: 'img/brandmark.svg',
       },
       items: [
         {
