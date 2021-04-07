@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Start Your Lab',
-  tagline: 'The tagline of my site',
+  tagline: 'An online starter kit for team science. Instructions included.',
   url: 'https://startyourlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -10,8 +10,17 @@ module.exports = {
   organizationName: 'startyourlab', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   themeConfig: {
+    announcementBar: {
+      id: 'coming_soon', // Any value that will identify this message.
+      content:
+        'We are currently building our site. All content should be considered experimental for now.',
+      backgroundColor: '#fafbfc', // Defaults to `#fff`.
+      textColor: '#091E42', // Defaults to `#000`.
+      isCloseable: true, // Defaults to `true`.
+    },
+    image: 'img/startyourlab.png',
     navbar: {
-      title: 'Start Your Lab',
+      //title: 'Start Your Lab',
       logo: {
         alt: 'Start Your Lab Logo',
         src: 'img/logo.svg',
