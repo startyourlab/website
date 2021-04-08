@@ -32,10 +32,15 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/startyourlab',
-          label: 'GitHub',
+          to: 'support/',
+          label: 'Support',
+          position: 'right',
+        },
+        {
+          to: 'about/',
+          label: 'About',
           position: 'right',
         },
       ],
@@ -47,8 +52,21 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/',
+              label: 'Get Started',
+              to: 'docs/get-started/',
+            },
+          ],
+        },
+        {
+          title: 'Tools',
+          items: [
+            {
+              label: 'GitHub',
+              to: 'https://github.com/',
+            },
+            {
+              label: 'Slack',
+              to: 'https://slack.com/',
             },
           ],
         },
@@ -67,15 +85,23 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/startyourlab',
             },
-            /*{
+            {
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/startyourlab',
-            },*/
+            },
+            {
+              label: 'Support',
+              to: 'support',
+            },
           ],
         },
         {
           title: 'More',
           items: [
+            {
+              label: 'About',
+              to: 'about',
+            },
             {
               label: 'Blog',
               to: 'blog',
