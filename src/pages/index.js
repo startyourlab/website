@@ -9,32 +9,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Built for Academic Researchers',
     imageUrl: 'img/brandmark.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Start Your Lab is an open-source project to provide guidance and
+        support to academic research labs throughout their journey to adopt modern tools.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Collaborate using Digital Tools',
     imageUrl: 'img/brandmark.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Digital collaboration tools like GitHub and Slack are more accessible than ever, and
+        Start Your Lab will help you learn how to use them.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Best Practices for Modern Science',
     imageUrl: 'img/brandmark.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Start Your Lab partners with industry advisors to develop a collection of
+        best practices for managing teams, projects, and code in scientific research.
       </>
     ),
   },
