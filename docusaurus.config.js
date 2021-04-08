@@ -49,6 +49,10 @@ module.exports = {
         },
       ],
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
+    },
     footer: {
       style: 'dark',
       links: [
@@ -139,6 +143,20 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        id: 'plugin-sitemap-custom',
+        changefreq: 'weekly',
+        priority: 0.5,
+        trailingSlash: false,
       },
     ],
   ],

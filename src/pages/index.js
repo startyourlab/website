@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import Particles from 'react-particles-js';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
@@ -9,7 +10,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/brandmark.svg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,7 +20,7 @@ const features = [
   },
   {
     title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/brandmark.svg',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -29,7 +30,7 @@ const features = [
   },
   {
     title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/brandmark.svg',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -54,6 +55,57 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+// https://github.com/shashankcic/react-particlesjs/blob/master/src/config/particlesConfig.js
+const particlesConfig = {
+  'particles': {
+    number: {
+      value: 70,
+      density: {
+        enable: true,
+        'value_area': 700,
+      }
+    },
+    size: {
+      value: 4,
+      random: true,
+    },
+    color: {
+      value: '#4c82a9',
+    },
+    opacity: {
+      value: 0.25,
+    },
+    shape: {
+      type: 'edge',
+      stroke: {
+        width: 1,
+        color: '#355b76',
+      },
+    },
+    'line_linked': {
+      enable: true,
+      distance: 180,
+      color: '#416f90',
+      opacity: 0.2,
+      width: 1,
+    },
+    move: {
+      enable: true,
+      speed: 2,
+      bounce: false,
+    }
+  },
+  'interactivity': {
+    events: {
+      onhover: {
+        enable: true,
+        mode: 'grab',
+      },
+    },
+  },
+  'retina_detect': true,
+};
+
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -61,14 +113,17 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
+      <div className={styles.particlesContainer}>
+        <Particles width='100%' height='100%' params={particlesConfig} />
+      </div>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
+        <div className='container'>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
