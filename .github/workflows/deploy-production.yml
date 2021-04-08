@@ -1,4 +1,4 @@
-name: production
+name: deploy-production
 
 on:
   pull_request:
