@@ -6,7 +6,8 @@
  * work well for content-centric websites.
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* Default Infima variables here. See https://docusaurus.io/docs/styling-layout */
 :root {
@@ -29,14 +30,19 @@
   --ifm-color-accent: #545464;
   /* Define Infima font overrides */
   --ifm-font-family-base: 'Lato', sans-serif;
+  --ifm-heading-font-family: 'Quicksand', sans-serif;
   --ifm-font-weight-base: 300;
   --ifm-font-size-base: 16px;
   --ifm-code-font-size: 95%;
 }
 
+h1, h2, h3 {
+  font-family: var(--ifm-heading-font-family);
+}
+
 .hero--primary {
   --ifm-hero-background-color: transparent;
-  --ifm-hero-text-color: var(--ifm-color-primary);
+  --ifm-hero-text-color: #1e1e24;
 }
 
 .footer--dark {
@@ -56,4 +62,16 @@ html[data-theme='dark'] {
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+/* see:https://github.com/matteobruni/tsparticles/issues/1277 */
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
 }
