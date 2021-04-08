@@ -53,7 +53,7 @@ module.exports = {
           items: [
             {
               label: 'Get Started',
-              to: 'docs/get-started/',
+              to: 'docs/',
             },
           ],
         },
