@@ -59,10 +59,10 @@ function Feature({imageUrl, title, description}) {
 const particlesConfig = {
   'particles': {
     number: {
-      value: 70,
+      value: 40,
       density: {
         enable: true,
-        'value_area': 700,
+        'value_area': 400,
       }
     },
     size: {
@@ -70,13 +70,13 @@ const particlesConfig = {
       random: true,
     },
     color: {
-      value: '#4c82a9',
+      value: ['#4c82a9', '#df8768', '#fff07c'],
     },
     opacity: {
-      value: 0.25,
+      value: 1,
     },
     shape: {
-      type: 'edge',
+      type: ['circle', 'edge'],
       stroke: {
         width: 1,
         color: '#355b76',
@@ -85,17 +85,18 @@ const particlesConfig = {
     'line_linked': {
       enable: true,
       distance: 180,
-      color: '#416f90',
-      opacity: 0.2,
+      color: '#ccd2d8',
+      opacity: 0.75,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 2,
-      bounce: false,
+      speed: 1,
+      bounce: true,
     }
   },
   'interactivity': {
+    'detect_on': 'canvas',
     events: {
       onhover: {
         enable: true,
@@ -113,11 +114,9 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <div className={styles.particlesContainer}>
-        <Particles width='100%' height='100%' params={particlesConfig} />
-      </div>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className='container'>
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>   
+        <Particles params={particlesConfig} />
+        <div className={styles.heroContent}>
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
