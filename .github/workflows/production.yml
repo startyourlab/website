@@ -1,10 +1,10 @@
-name: prod
+name: production
 
 on:
   pull_request:
-    branches: [prod]
+    branches: [production]
   push:
-    branches: [prod]
+    branches: [production]
 
 jobs:
   checks:
