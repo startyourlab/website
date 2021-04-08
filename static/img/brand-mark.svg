@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>brandmark</title>
-    <g id="brandmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="brand-mark" stroke="#1E1E24" stroke-width="2.97009967">
+    <title>brand-mark</title>
+    <g id="brand-mark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g stroke="#1E1E24" stroke-width="2.97009967">
             <circle id="Oval" fill="#F6F7F8" cx="149.501661" cy="149.501661" r="148.016611"></circle>
             <g id="Group" transform="translate(149.501661, 149.783091) rotate(-315.000000) translate(-149.501661, -149.783091) translate(79.535218, 79.816648)">
                 <rect id="Rectangle" fill="#4C82A9" x="0" y="0" width="59.8006645" height="139.534884" rx="11.8803987"></rect>

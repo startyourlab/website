@@ -49,6 +49,10 @@ module.exports = {
         },
       ],
     },
+    prism: {
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
+    },
     footer: {
       style: 'dark',
       links: [
@@ -141,6 +145,9 @@ module.exports = {
         },
       },
     ],
+  ],
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
   ],
   plugins: [
     [
