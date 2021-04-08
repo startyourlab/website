@@ -153,6 +153,7 @@ module.exports = {
     [
       '@docusaurus/plugin-sitemap',
       {
+        id: 'plugin-sitemap-custom',
         changefreq: 'weekly',
         priority: 0.5,
         trailingSlash: false,
