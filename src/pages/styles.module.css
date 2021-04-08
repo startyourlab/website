@@ -21,7 +21,7 @@
   left: 0;
   z-index: 1;
   border-radius: 2rem;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.65);
 }
 
 @media screen and (max-width: 720px) {
@@ -44,6 +44,6 @@
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  height: 120px;
+  width: 120px;
 }

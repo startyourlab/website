@@ -6,7 +6,7 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* Default Infima variables here. See https://docusaurus.io/docs/styling-layout */
@@ -29,20 +29,41 @@
   /* --ifm-navbar-background-color: #ffffff; */
   --ifm-color-accent: #545464;
   /* Define Infima font overrides */
-  --ifm-font-family-base: 'Lato', sans-serif;
+  --ifm-font-family-base: 'Roboto', sans-serif;
   --ifm-heading-font-family: 'Quicksand', sans-serif;
   --ifm-font-weight-base: 300;
   --ifm-font-size-base: 16px;
   --ifm-code-font-size: 95%;
+  --ifm-button-font-weight: 300;
 }
 
 h1, h2, h3 {
   font-family: var(--ifm-heading-font-family);
 }
 
+.navbar__title {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.navbar__item {
+  font-size: 1em;
+  font-weight: 300;
+}
+
 .hero--primary {
   --ifm-hero-background-color: transparent;
   --ifm-hero-text-color: #1e1e24;
+}
+
+.hero__title {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+  .hero__title {
+    font-size: 2rem;
+  }
 }
 
 .footer--dark {
