@@ -2,9 +2,11 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Digital Collaboration',
+      label: 'Getting Started',
       items: [
-        'get-started',
+        'getting-started/introduction',
+        'getting-started/lab-directors',
+        'getting-started/lab-members',
       ],
     },
   ],
