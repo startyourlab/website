@@ -51,6 +51,10 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
+.hero {
+  height: calc(100vh - var(--ifm-navbar-height));
+}
+
 .hero--primary {
   --ifm-hero-background-color: transparent;
   --ifm-hero-text-color: #1e1e24;
