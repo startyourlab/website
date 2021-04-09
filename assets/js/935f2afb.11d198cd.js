@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{87:function(e){e.exports=JSON.parse('{"pluginId":"default","version":"current","label":"Next","isLast":true,"docsSidebars":{"docs":[{"collapsed":true,"type":"category","label":"Digital Collaboration","items":[{"type":"link","label":"Get Started","href":"/docs/"}]}]},"permalinkToSidebar":{"/docs/":"docs"}}')}}]);
