@@ -26,6 +26,13 @@
   --ifm-color-secondary-light: #ffffff;
   --ifm-color-secondary-lighter: #ffffff;
   --ifm-color-secondary-lightest: #ffffff;
+  --ifm-color-warning: #f4b73e;
+  --ifm-color-warning-dark: #f2ac21;
+  --ifm-color-warning-darker: #f2a713;
+  --ifm-color-warning-darkest: #cb8b0c;
+  --ifm-color-warning-light: #f6c25b;
+  --ifm-color-warning-lighter: #f6c769;
+  --ifm-color-warning-lightest: #f9d795;
   /* --ifm-navbar-background-color: #ffffff; */
   --ifm-color-accent: #545464;
   /* Define Infima font overrides */
