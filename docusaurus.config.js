@@ -38,11 +38,6 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
-          to: 'support/',
-          label: 'Support',
-          position: 'right',
-        },
-        {
           to: 'about/',
           label: 'About',
           position: 'right',
@@ -60,7 +55,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Get Started',
+              label: 'Introduction',
               to: 'docs/',
             },
           ],
@@ -99,7 +94,7 @@ module.exports = {
             },
             {
               label: 'Support',
-              to: 'support',
+              to: 'docs/support',
             },
           ],
         },
