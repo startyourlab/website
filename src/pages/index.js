@@ -10,7 +10,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Built for Academic Researchers',
-    imageUrl: 'img/brandmark.svg',
+    imageUrl: 'img/for-academics.svg',
     description: (
       <>
         Start Your Lab is an open-source project to provide guidance and
@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: 'Collaborate using Digital Tools',
-    imageUrl: 'img/brandmark.svg',
+    imageUrl: 'img/collaborate-with-digital-tools.svg',
     description: (
       <>
         Digital collaboration tools like GitHub and Slack are more accessible than ever, and
@@ -30,7 +30,7 @@ const features = [
   },
   {
     title: 'Best Practices for Modern Science',
-    imageUrl: 'img/brandmark.svg',
+    imageUrl: 'img/best-practices.svg',
     description: (
       <>
         Start Your Lab partners with industry advisors to develop a collection of
@@ -49,8 +49,10 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <div className="text--center">
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </div>
     </div>
   );
 }
