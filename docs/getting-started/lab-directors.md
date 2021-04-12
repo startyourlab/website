@@ -1,7 +1,7 @@
 ---
 id: lab-directors
 title: Lab Directors
-slug: /getting-started/lab-directors/
+slug: /lab-directors
 ---
 
 :::caution

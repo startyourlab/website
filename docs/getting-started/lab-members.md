@@ -1,7 +1,7 @@
 ---
 id: lab-members
 title: Lab Members
-slug: /getting-started/lab-members/
+slug: /lab-members
 ---
 
 :::caution
