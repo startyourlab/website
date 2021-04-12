@@ -208,6 +208,7 @@ Project Link: [https://github.com/startyourlab/website](https://github.com/start
 
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Freepik](https://www.freepik.com/)
+* [React TypeScript Particles](https://www.npmjs.com/package/react-tsparticles)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
