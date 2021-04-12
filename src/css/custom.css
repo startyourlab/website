@@ -33,19 +33,27 @@
   --ifm-color-warning-light: #f6c25b;
   --ifm-color-warning-lighter: #f6c769;
   --ifm-color-warning-lightest: #f9d795;
+  /* Custom CSS colors */
+  --hero-content-background-color: rgba(255, 255, 255, 0.65);
   /* --ifm-navbar-background-color: #ffffff; */
   --ifm-color-accent: #545464;
   /* Define Infima font overrides */
   --ifm-font-family-base: 'Roboto', sans-serif;
   --ifm-heading-font-family: 'Quicksand', sans-serif;
   --ifm-font-weight-base: 300;
+  --ifm-heading-font-weight: 300;
+  --ifm-button-font-weight: 400 !important;
   --ifm-font-size-base: 16px;
   --ifm-code-font-size: 95%;
   --ifm-button-font-weight: 300;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: var(--ifm-heading-font-family);
+}
+
+h2, h3, h4 {
+  font-weight: 500;
 }
 
 .navbar__title {
@@ -64,11 +72,14 @@ h1, h2, h3 {
 
 .hero--primary {
   --ifm-hero-background-color: transparent;
-  --ifm-hero-text-color: #1e1e24;
+  --ifm-hero-text-color: var(--ifm-heading-color);
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: var(--ifm-font-family-base);
+  max-width: 720px;
 }
 
 @media screen and (max-width: 500px) {
@@ -85,8 +96,11 @@ h1, h2, h3 {
 html[data-theme='dark'] {
   --ifm-color-primary: #4e89e8;
   --ifm-color-primary-dark: #5a91ea;
+  --ifm-heading-color: #fff;
+  --ifm-button-color: #fff;
   /* --ifm-navbar-background-color: #ffffff; */
   /* any other colors you wish to overwrite */
+  --hero-content-background-color: rgba(36, 37, 38, 0.65);
 }
 
 .docusaurus-highlight-code-line {

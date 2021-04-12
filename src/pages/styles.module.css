@@ -9,18 +9,19 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  margin: 0 1em;
 }
 
 .heroContent {
   margin: 0 auto;
   max-width: var(--ifm-container-width);
-  padding: 1rem var(--ifm-spacing-horizontal);
+  padding: 2rem var(--ifm-spacing-horizontal);
   width: auto;
   top: 0;
   left: 0;
   z-index: 1;
-  border-radius: 2rem;
-  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 0.5rem;
+  background-color: var(--hero-content-background-color);
 }
 
 .buttons {

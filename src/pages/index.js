@@ -119,13 +119,11 @@ export default function Home() {
       <header className={clsx('hero hero--primary', styles.heroBanner)}>   
         <Particles params={particlesConfig} />
         <div className={styles.heroContent}>
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <h1 className="hero__title">Use modern tools to do your best science together.</h1>
           <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--primary button--lg',
-                styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
               Get Started
