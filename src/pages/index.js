@@ -125,7 +125,6 @@ export default function Home() {
             <Link
               className={clsx(
                 'button button--primary button--lg',
-                styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
               Get Started
