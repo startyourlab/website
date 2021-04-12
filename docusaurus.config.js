@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Start Your Lab',
-  tagline: 'An online starter kit for team science. Instructions included.',
+  tagline: 'Start Your Lab helps researchers learn how to work together effectively, reliably, and efficiently.',
   url: 'https://www.startyourlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -22,12 +22,12 @@ module.exports = {
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
     },
-    image: 'img/startyourlab.png',
+    image: 'img/og-image-large.png',
     navbar: {
-      title: 'Start Your Lab',
+      //title: 'Start Your Lab',
       logo: {
-        alt: 'Start Your Lab Brand Mark',
-        src: 'img/brandmark.svg',
+        alt: 'Start Your Lab Logo',
+        src: 'img/logo.svg',
       },
       items: [
         {

@@ -76,7 +76,10 @@ h2, h3, h4 {
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: var(--ifm-font-family-base);
+  max-width: 720px;
 }
 
 @media screen and (max-width: 500px) {
