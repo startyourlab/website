@@ -1,6 +1,7 @@
 ---
 id: resources
 title: Resources
+slug: /resources
 ---
 
 :::caution
