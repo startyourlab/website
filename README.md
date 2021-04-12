@@ -15,7 +15,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/startyourlab/website">
-    <img src="assets/img/logo.svg" alt="Logo" height="80">
+    <img src="assets/img/logo.png" alt="Logo" height="80">
   </a>
 
   <h3 align="center">Start Your Lab</h3>
