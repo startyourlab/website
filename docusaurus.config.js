@@ -113,6 +113,10 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/startyourlab',
             },
+            {
+              label: 'Icons by Freepik',
+              href: 'https://www.freepik.com',
+            }
           ],
         },
       ],
