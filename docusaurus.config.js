@@ -28,6 +28,7 @@ module.exports = {
       logo: {
         alt: 'Start Your Lab Logo',
         src: 'img/logo.svg',
+        srcDark: '/img/logo-dark.svg',
       },
       items: [
         {
@@ -38,8 +39,8 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
-          to: 'about/',
-          label: 'About',
+          to: 'community/support',
+          label: 'Community',
           position: 'right',
         },
       ],
@@ -61,19 +62,6 @@ module.exports = {
           ],
         },
         {
-          title: 'Tools',
-          items: [
-            {
-              label: 'GitHub',
-              to: 'https://github.com/',
-            },
-            {
-              label: 'Slack',
-              to: 'https://slack.com/',
-            },
-          ],
-        },
-        {
           title: 'Community',
           items: [
             /*{
@@ -85,33 +73,33 @@ module.exports = {
               href: 'https://discordapp.com/invite/startyourlab',
             },*/
             {
+              label: 'Help',
+              to: 'community/support',
+            },
+            {
+              label: 'Team',
+              to: 'community/team',
+            },
+            {
               label: 'Twitter',
               href: 'https://twitter.com/startyourlab',
             },
             {
+              label: 'GitHub',
+              href: 'https://github.com/startyourlab',
+            },
+            /*{
               label: 'Stack Overflow',
               href: 'https://stackoverflow.com/questions/tagged/startyourlab',
-            },
-            {
-              label: 'Support',
-              to: 'docs/support',
-            },
+            },*/
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'About',
-              to: 'about',
-            },
-            {
               label: 'Blog',
               to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/startyourlab',
             },
             {
               label: 'Icons by Freepik',
@@ -120,6 +108,10 @@ module.exports = {
           ],
         },
       ],
+      logo: {
+        src: 'img/logo.svg',
+        alt: 'Start Your Lab Logo',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Start Your Lab. Built with Docusaurus.`,
     },
   },
@@ -129,15 +121,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/startyourlab/website/edit/main/website/',
+            'https://github.com/startyourlab/website/edit/main/website/docs',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/startyourlab/website/edit/main/website/blog/',
+            'https://github.com/startyourlab/website/edit/main/website/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -156,6 +146,19 @@ module.exports = {
         changefreq: 'weekly',
         priority: 0.5,
         trailingSlash: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        editUrl:
+          'https://github.com/startyourlab/website/edit/main/website/community',
       },
     ],
   ],

@@ -17,8 +17,6 @@ module.exports = {
         'getting-started/lab-members',
       ],
     },
-    'resources',
-    'support',
     'contributing',
   ],
 };

@@ -59,7 +59,6 @@
   </ol>
 </details>
 
-<!-- TODO: ABOUT THE PROJECT -->
 ## About The Project
 
 [![Start Your Lab Screen Shot][product-screenshot]](https://www.startyourlab.com)
@@ -95,63 +94,10 @@ steps below.
 
 ### Prerequisites
 
-You must have the Node and NPM command line tools installed on your local machine in order to contribute. To
-make sure all contributors use the same environment:
+You must have the Node, NPM, and [Yarn](https://yarnpkg.com)
+command line tools installed on your local machine in order to contribute to this project.
 
-#### Node Version Manager
-
-Please install this [node version manager](https://github.com/nvm-sh/nvm/#installing-and-updating) using the provided
-instructions. If this causes problems or you have any questions about installation, please [contact us for support](./.github/SUPPORT.md).
-
-Once the version manager is installed, you must exit out of the terminal and
-restart the terminal. You should then be able to run
-
-```
-command -v nvm
-```
-
-which will return `nvm` if properly installed. Then use
-
-```
-nvm --version
-```
-
-which should return a version 0.37.2 or greater.
-
-#### Node & NPM
-
-With the node version manager installed, install the long-term stable (LTS) version of Node that this
-project requires via
-
-```
-nvm install 14.16.0
-```
-
-which should install the LTS Node (fermium). This can be checked with
-
-```
-node --version
-```
-
-If the version is not exactly what was just installed, simply run
-
-```
-nvm use 14.16.0
-```
-
-Finally, check that `npm` is installed via
-
-```
-npm --version
-```
-
-which should return the version to 7.6.0. If not, run
-
-```
-nvm install-latest-npm
-```
-
-With the above all working, you are ready to install this project.
+Please see [Yarn's installation guide](https://yarnpkg.com/getting-started/install).
 
 ### Installation
 
@@ -160,13 +106,13 @@ For the best developer experience, we suggest cloning this repository to your lo
 have cloned the repository, navigate into it and run the following from the root of the repository.
 
 ```console
-npm install
+yarn install
 ```
 
 #### Local Development
 
 ```console
-npm start
+yarn start
 ```
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
@@ -174,7 +120,7 @@ This command starts a local development server and open up a browser window. Mos
 #### Build
 
 ```console
-npm build
+yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
@@ -182,7 +128,7 @@ This command generates static content into the `build` directory and can be serv
 #### Local Server Test
 
 ```console
-npm serve
+yarn serve
 ```
 
 ## Code of Conduct
