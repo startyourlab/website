@@ -4,18 +4,42 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       items: [
-        'getting-started/introduction',
+        'introduction',
         {
           type: 'category',
-          label: 'Concepts',
+          label: 'Useful Concepts',
           items: [
             'concepts/command-line',
             'concepts/text-editors',
           ],
         },
-        'getting-started/lab-directors',
-        'getting-started/lab-members',
+        {
+          type: 'category',
+          label: 'Tools Configuration',
+          items: [
+            'configuration/lab-members',
+            'configuration/lab-directors',
+          ],
+        },
       ],
+    },
+    {
+      type: 'category',
+      label: 'Tutorials',
+      items: [
+        {
+          type: 'category',
+          label: 'Git Started',
+          items: [
+            'tutorials/your-first-commit',
+          ],
+        }
+      ],
+    },
+    {
+      type: 'link',
+      label: 'Templates',
+      href: 'https://github.com/startyourlab',
     },
     'contributing',
   ],
