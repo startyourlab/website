@@ -122,12 +122,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/startyourlab/website/edit/main/website/docs',
+            'https://github.com/startyourlab/website/edit/production/docs',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/startyourlab/website/edit/main/website/blog',
+            'https://github.com/startyourlab/website/edit/production/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -158,7 +158,7 @@ module.exports = {
         showLastUpdateTime: true,
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
         editUrl:
-          'https://github.com/startyourlab/website/edit/main/website/community',
+          'https://github.com/startyourlab/website/edit/production',
       },
     ],
   ],
