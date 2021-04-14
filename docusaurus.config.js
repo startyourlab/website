@@ -122,12 +122,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/startyourlab/website/edit/production/docs',
+            'https://github.com/startyourlab/website/edit/production',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/startyourlab/website/edit/production/blog',
+            'https://github.com/startyourlab/website/edit/production',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
