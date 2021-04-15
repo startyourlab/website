@@ -1,25 +1,14 @@
 module.exports = {
   docs: [
     {
+      type: 'doc',
+      id: 'introduction',
+    },
+    {
       type: 'category',
-      label: 'Getting Started',
+      label: 'Tools Configuration',
       items: [
-        'introduction',
-        {
-          type: 'category',
-          label: 'Useful Concepts',
-          items: [
-            'concepts/command-line',
-            'concepts/text-editors',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Tools Configuration',
-          items: [
-            'configuration/github-accounts',
-          ],
-        },
+        'configuration/github-accounts',
       ],
     },
     {
@@ -34,6 +23,14 @@ module.exports = {
             'tutorials/git-goals',
           ],
         }
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Useful Concepts',
+      items: [
+        'concepts/command-line',
+        'concepts/text-editors',
       ],
     },
     {
