@@ -3,5 +3,6 @@ module.exports = {
     'support',
     'team',
     'resources',
+    'contributing',
   ],
 };
