@@ -1,6 +1,6 @@
 ---
 id: git-goals
-title: Git Goals Tutorial
+title: Git Goals
 description: Learn how to make your first real contribution on GitHub
 slug: /tutorials/git-goals
 ---
