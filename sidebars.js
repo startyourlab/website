@@ -29,9 +29,10 @@ module.exports = {
       items: [
         {
           type: 'category',
-          label: 'Git Started',
+          label: 'GitHub',
           items: [
-            'tutorials/your-first-commit',
+            // 'tutorials/your-first-commit',
+            'tutorials/git-goals',
           ],
         }
       ],
