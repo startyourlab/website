@@ -1,10 +1,13 @@
 ---
 id: git-goals
-title: Git Goals
+title: Git Goals Tutorial
+description: Learn how to make your first real contribution on GitHub
 slug: /tutorials/git-goals
 ---
 
-Welcome to the Git Goals Tutorial!
+Welcome to Start Your Lab's official page for the **Git Goals Tutorial**.
+In this tutorial you will learn how to make your first real contribution
+on GitHub!
 
 ## Prerequisites
 
@@ -14,7 +17,8 @@ You can do so by [clicking here](https://github.com/join).
 
 ## Setup
 
-Open the [tutorial repository](https://github.com/startyourlab/git-goals-tutorial).
+Open the [tutorial repository](https://github.com/startyourlab/git-goals-tutorial). You will
+use GitHub's web interface to implement each of the steps detailed below.
 
 ## Create your personal file
 
@@ -75,9 +79,9 @@ Then, select the option to “Create a **new branch** for this commit and start 
 In the provided text input, rename the branch (of the form `username-patch-1`) to `username-patch-descriptive-phrase`
 (i.e., `username-patch-pronouns`). Click **Propose changes**.
 
-## Submit a pull request
+## Create a pull request
 
-After committing your changes, you will be asked to submit a pull request.
+After committing your changes, you will be asked to create a pull request.
 The title of your pull request should be the summary description you wrote in the previous step,
 and the body should look like the following code block: 
 
@@ -89,7 +93,24 @@ Please delete this line and replace it with a short summary of the changes made 
 ```
 
 To fill out the template, simply replace the `Please delete ...` line with documentation of your changes.
-Then, using the sidebar on the righthand side of the window, add a reviewer using the username **`aridyckovsky`**.
-Finally, submit your pull request.
+There will be many other things on the page, but don't worry about them for this tutorial. When you've documented
+the changes you made, simply click the green **Create pull request** button. This submits your request and notifies
+the Start Your Lab team that you have made changes.
+
+## After your pull request
+
+Once you submit a pull request, a member of the Start Your Lab team will review the
+proposed changes to your personal file to make sure everything works as expected. This
+review is _not_ a test and serves only as an opportunity for you to receive constructive, friendly,
+and supportive feedback on your first contribution from the Start Your Lab team.
+
+If we happen to notice a way to improve your pull request, we'll let you know by leaving a
+comment on the pull request page. Then, when everything
+is in tip-top shape, we can approve your changes and merge your changes into the
+main, public-facing version of the project.
 
 <!-- TODO: What happens after pull request submitted -->
+
+## Congratulations on your first contribution!
+
+You did it! You made your first real contribution to a GitHub repository.
