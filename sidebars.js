@@ -17,8 +17,7 @@ module.exports = {
           type: 'category',
           label: 'Tools Configuration',
           items: [
-            'configuration/lab-members',
-            'configuration/lab-directors',
+            'configuration/github-accounts',
           ],
         },
       ],
