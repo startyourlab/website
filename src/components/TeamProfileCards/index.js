@@ -113,30 +113,34 @@ export function IndustryAdvisorRow() {
   return (
     <div className="row">
       <TeamProfileCardCol
+        name="Austin Chustz"
+        githubUrl="https://github.com/ATchustz"
+        linkedinUrl="https://www.linkedin.com/in/atchustz/"
+        photoUrl="https://media-exp1.licdn.com/dms/image/C4E03AQGTOVgYwASdUQ/profile-displayphoto-shrink_800_800/0/1517272810353?e=1623888000&v=beta&t=Xf9PFrxj15x1Vea5Z0vE-MfHysHpyiygbLpSNcgOEoA">
+        <Translate id="team.profile.Austin Chustz.body">
+          Austin is currently a Full-Stack Software Engineer at Fellow with previous
+          experience developing software at both small startups and larger companies
+          like Apple. He enjoys working across the technology stack, from UIs to APIs, and always builds with
+          users in mind. Austin holds a B.S. in Computer Science from Stanford
+          University with a concentration in Human-Computer Interaction.
+        </Translate>
+      </TeamProfileCardCol>
+      {/*<TeamProfileCardCol
         name="Ayush Sood"
         githubUrl="https://github.com/ayushsood"
         linkedinUrl="https://www.linkedin.com/in/ayushsood/">
         <Translate id="team.profile.Ayush Sood.body">
           Product & Engineering Leader at Facebook
         </Translate>
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
-        name="Austin Chustz"
-        githubUrl="https://github.com/ATchustz"
-        linkedinUrl="https://www.linkedin.com/in/atchustz/"
-        photoUrl="https://media-exp1.licdn.com/dms/image/C4E03AQGTOVgYwASdUQ/profile-displayphoto-shrink_800_800/0/1517272810353?e=1623888000&v=beta&t=Xf9PFrxj15x1Vea5Z0vE-MfHysHpyiygbLpSNcgOEoA">
-        <Translate id="team.profile.Austin Chustz.body">
-          Full-Stack Software Developer at Fellow
-        </Translate>
-      </TeamProfileCardCol>
-      <TeamProfileCardCol
+      </TeamProfileCardCol>*/}
+      {/*<TeamProfileCardCol
         name="Aaron Rios"
         linkedinUrl="https://www.linkedin.com/in/riosaaron/"
         photoUrl="https://media-exp1.licdn.com/dms/image/C5603AQEEQAqzIhO7pg/profile-displayphoto-shrink_800_800/0/1534558999764?e=1623888000&v=beta&t=mQkK7CrHsoE3dL1bXYEwEopil5Fj-6HcO0_lK64BGNk">
         <Translate id="team.profile.AJ Rios.body">
           Data Scientist at Even
         </Translate>
-      </TeamProfileCardCol>
+      </TeamProfileCardCol>*/}
     </div>
   );
 }
