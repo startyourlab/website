@@ -46,7 +46,7 @@ extension `.md`.
 With your file page open, it's time to make some updates to reflect who you are
 and what your Git Goals are.
 
-:::tip Preview your changes
+:::tip
 
 Use the **Preview** tab to check how the edits you make affect the file's appearance.
 
@@ -93,4 +93,3 @@ Then, using the sidebar on the righthand side of the window, add a reviewer usin
 Finally, submit your pull request.
 
 <!-- TODO: What happens after pull request submitted -->
-

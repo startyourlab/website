@@ -6,8 +6,7 @@
  * work well for content-centric websites.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /* Default Infima variables here. See https://docusaurus.io/docs/styling-layout */
 :root {
@@ -38,12 +37,12 @@
   /* --ifm-navbar-background-color: #ffffff; */
   --ifm-color-accent: #545464;
   /* Define Infima font overrides */
-  --ifm-font-family-base: 'Roboto', sans-serif;
+  --ifm-font-family-base: 'Nunito', sans-serif;
   --ifm-heading-font-family: 'Nunito', sans-serif;
   --ifm-font-weight-base: 300;
-  --ifm-heading-font-weight: 300;
+  --ifm-heading-font-weight: 500;
   --ifm-button-font-weight: 400 !important;
-  --ifm-font-size-base: 16px;
+  --ifm-font-size-base: 17px;
   --ifm-code-font-size: 95%;
   --ifm-button-font-weight: 300;
 }
@@ -51,19 +50,10 @@
 html[data-theme='dark'] {
   --ifm-color-primary: #4e89e8;
   --ifm-color-primary-dark: #5a91ea;
-  --ifm-heading-color: #fff;
   --ifm-button-color: #fff;
   /* --ifm-navbar-background-color: #ffffff; */
   /* any other colors you wish to overwrite */
   --hero-content-background-color: rgba(36, 37, 38, 0.65);
-}
-
-h1 {
-  font-family: var(--ifm-heading-font-family);
-}
-
-h2, h3, h4 {
-  font-weight: 500;
 }
 
 .navbar__title {
