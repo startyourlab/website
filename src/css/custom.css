@@ -58,12 +58,12 @@ html[data-theme='dark'] {
 
 .navbar__title {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .navbar__item {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .hero {
@@ -90,6 +90,10 @@ html[data-theme='dark'] {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   opacity: 0.7;
+}
+
+.footer__title {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 500px) {

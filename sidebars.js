@@ -41,6 +41,5 @@ module.exports = {
       label: 'Templates',
       href: 'https://github.com/startyourlab',
     },
-    'contributing',
   ],
 };

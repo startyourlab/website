@@ -62,6 +62,15 @@ module.exports = {
           ],
         },
         {
+          title: 'Tutorials',
+          items: [
+            {
+              label: 'Git Goals',
+              to: 'docs/tutorials/git-goals',
+            },
+          ],
+        },
+        {
           title: 'Community',
           items: [
             /*{
