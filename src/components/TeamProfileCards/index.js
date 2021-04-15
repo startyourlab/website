@@ -86,9 +86,7 @@ export function ActiveTeamRow() {
         twitterUrl="https://twitter.com/adyckovsky"
         linkedinUrl="https://www.linkedin.com/in/aridyckovsky/">
         <Translate id="team.profile.Ari Dyckovsky.body">
-          Start Your Lab's creator and core maintainer. Incoming doctoral
-          student at Princeton University with a focus on collective
-          problem-solving and collaborative processes.
+          Ari is the creator and core maintainer of Start Your Lab. He is also an incoming Ph.D. student in Social Psychology and a Centennial Fellow at Princeton University (starting Fall 2021). Ari's research focuses on the application of artificial intelligence to facilitate collective problem-solving and collaborative processes on a global scale. With a breadth of experiences across physics, mathematics, finance, and software, he hopes to bring modern tools to the forefront of the social sciences, with a nod toward increased interdisciplinary work between fields and industries.
         </Translate>
       </TeamProfileCardCol>
       {/*<TeamProfileCardCol
