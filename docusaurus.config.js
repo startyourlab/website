@@ -66,7 +66,7 @@ module.exports = {
           items: [
             {
               label: 'Git Goals',
-              to: 'tutorials/git-goals',
+              to: 'docs/tutorials/git-goals',
             },
           ],
         },

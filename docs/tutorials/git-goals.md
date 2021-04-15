@@ -13,7 +13,7 @@ on GitHub!
 
 <!-- TODO: Need to describe GitHub user account basic conventions -->
 Before continuing with this tutorial, please create a user account on GitHub.
-You can do so by [clicking here](https://github.com/join).
+You can do so by [following these instructions](/docs/github-accounts#create-your-github-user-account).
 
 ## Setup
 
