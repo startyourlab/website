@@ -55,7 +55,7 @@
     <li><a href="#code-of-conduct">Code of Conduct</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -149,8 +149,8 @@ Start Your Lab - [@startyourlab](https://twitter.com/startyourlab) - ari@startyo
 
 Project Link: [https://github.com/startyourlab/website](https://github.com/startyourlab/website)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Freepik](https://www.freepik.com/)
