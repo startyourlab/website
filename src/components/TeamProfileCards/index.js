@@ -19,7 +19,7 @@ function WebsiteLink({to, children}) {
   );
 }
 
-function TeamProfileCard({className, name, children, githubUrl, twitterUrl, linkedinUrl, photoUrl}) {
+function TeamProfileCard({className, name, pronouns, children, githubUrl, twitterUrl, linkedinUrl, photoUrl}) {
   return (
     <div className={className}>
       <div className="card card--full-height">
@@ -43,6 +43,7 @@ function TeamProfileCard({className, name, children, githubUrl, twitterUrl, link
             )}
             <div className="avatar__intro">
               <h3 className="avatar__name">{name}</h3>
+              <h3 className="avatar__pronouns">{pronouns}</h3>
             </div>
           </div>
         </div>
@@ -82,6 +83,7 @@ export function ActiveTeamRow() {
     <div className="row">
       <TeamProfileCardCol
         name="Ari Dyckovsky"
+        pronouns="he/him/his"
         githubUrl="https://github.com/aridyckovsky"
         twitterUrl="https://twitter.com/adyckovsky"
         linkedinUrl="https://www.linkedin.com/in/aridyckovsky/">
@@ -90,7 +92,8 @@ export function ActiveTeamRow() {
         </Translate>
       </TeamProfileCardCol>
       <TeamProfileCardCol
-        name="Peter Sokol-Hessner (he/him/his)"
+        name="Peter Sokol-Hessner"
+        pronouns="he/him/his"
         githubUrl="https://github.com/psokolhessner"
         twitterUrl="https://twitter.com/p1sh"
         linkedinUrl="https://www.linkedin.com/in/peter-sokol-hessner-0358758b/">
@@ -113,6 +116,7 @@ export function IndustryAdvisorRow() {
     <div className="row">
       <TeamProfileCardCol
         name="Austin Chustz"
+        pronouns="he/him/his"
         githubUrl="https://github.com/ATchustz"
         linkedinUrl="https://www.linkedin.com/in/atchustz/"
         photoUrl="https://media-exp1.licdn.com/dms/image/C4E03AQGTOVgYwASdUQ/profile-displayphoto-shrink_800_800/0/1517272810353?e=1623888000&v=beta&t=Xf9PFrxj15x1Vea5Z0vE-MfHysHpyiygbLpSNcgOEoA">
@@ -128,6 +132,7 @@ export function IndustryAdvisorRow() {
       </TeamProfileCardCol>
       {/*<TeamProfileCardCol
         name="Ayush Sood"
+        pronouns="he/him/his"
         githubUrl="https://github.com/ayushsood"
         linkedinUrl="https://www.linkedin.com/in/ayushsood/">
         <Translate id="team.profile.Ayush Sood.body">
@@ -136,6 +141,7 @@ export function IndustryAdvisorRow() {
       </TeamProfileCardCol>*/}
       {/*<TeamProfileCardCol
         name="Aaron Rios"
+        pronouns="he/him/his"
         linkedinUrl="https://www.linkedin.com/in/riosaaron/"
         photoUrl="https://media-exp1.licdn.com/dms/image/C5603AQEEQAqzIhO7pg/profile-displayphoto-shrink_800_800/0/1534558999764?e=1623888000&v=beta&t=mQkK7CrHsoE3dL1bXYEwEopil5Fj-6HcO0_lK64BGNk">
         <Translate id="team.profile.AJ Rios.body">
