@@ -96,6 +96,12 @@ html[data-theme='dark'] {
   font-weight: 700;
 }
 
+.avatar__pronouns {
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+}
+
 @media screen and (max-width: 500px) {
   .hero__title {
     font-size: 2rem;
