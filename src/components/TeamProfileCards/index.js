@@ -89,20 +89,21 @@ export function ActiveTeamRow() {
           Ari is the creator and core maintainer of Start Your Lab. He is also an incoming Ph.D. student in Social Psychology and a Centennial Fellow at Princeton University (starting Fall 2021). Ari's research focuses on the application of artificial intelligence to facilitate collective problem-solving and collaborative processes on a global scale. With a breadth of experiences across physics, mathematics, finance, and software, he hopes to bring modern tools to the forefront of the social sciences, with a nod toward increased interdisciplinary work between fields and industries.
         </Translate>
       </TeamProfileCardCol>
-      {/*<TeamProfileCardCol
-        name="Peter Sokol-Hessner"
+      <TeamProfileCardCol
+        name="Peter Sokol-Hessner (he/him/his)"
         githubUrl="https://github.com/psokolhessner"
-        twitterUrl="https://twitter.com/p1sh">
+        twitterUrl="https://twitter.com/p1sh"
+        linkedinUrl="https://www.linkedin.com/in/peter-sokol-hessner-0358758b/">
         <Translate
           id="team.profile.Peter Sokol-Hessner.body"
           values={{
-            website: <WebsiteLink to="https://sokolhessnerlab.com/" />,
+            website: <WebsiteLink to="https://www.sokolhessnerlab.com/" />,
           }}>
           {
-            'Assistant Professor of Psychology at the University of Denver and the director of the Sokol-Hessner Lab. Learn more about his work on his lab\'s {website}'
+            'Peter is an Assistant Professor of Psychology at the University of Denver and the director of the Sokol-Hessner Lab. He received his Ph.D. from New York University, and did postdoctoral fellowships at the California Institute of Technology and New York University. Peter\'s research focuses on the intersection between emotion and decision-making, leveraging tools and perspectives from psychology, economics, and neuroscience to examine the cognitive and neural mechanisms underlying valuation and choice. His work entails computational analysis of behavior and physiology (including brain imaging). Learn more on his lab\'s {website}.'
           }
         </Translate>
-      </TeamProfileCardCol>*/}
+      </TeamProfileCardCol>
     </div>
   );
 }
