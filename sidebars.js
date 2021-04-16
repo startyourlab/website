@@ -6,9 +6,9 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Tools Configuration',
+      label: 'Setup',
       items: [
-        'configuration/github-accounts',
+        'setup/github-accounts',
       ],
     },
     {
