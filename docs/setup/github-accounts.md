@@ -36,7 +36,11 @@ We suggest trying to adhere to the following conventions:
 
 There are also opportunities in the profile to include your location (e.g. Denver), school or place of employment (e.g. your university), your website, and your twitter handle, as you feel comfortable.
 
+:::tip
+
 GitHub profiles do not currently provide structured opportunities to include additional personal information (including pronouns). If you would like to include such information, include it in the brief bio, or in your display name.
+
+:::
 
 :::caution
 
