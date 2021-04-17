@@ -7,7 +7,7 @@ slug: /github-accounts
 
 To use GitHub, you need a user account. This page will cover how to create such an account as well as other closely related things (like lab _organizations_).
 
-[GitHub.com](https://github.com/) is the online interface for GitHub, and it is where you will sign up for a personal user account. If you are a lab director, it is also where you will create and manage your lab's organization on GitHub.
+[GitHub.com](https://github.com/) is the online interface for GitHub, and it is where you will sign up for a personal user account. If you are a lab director, this is also where you will create and manage your lab's organization on GitHub.
 
 ## Create your GitHub user account
 
