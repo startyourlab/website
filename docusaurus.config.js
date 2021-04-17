@@ -59,6 +59,10 @@ module.exports = {
               label: 'Introduction',
               to: 'docs/',
             },
+            {
+              label: 'Setup',
+              to: 'docs/github-accounts',
+            },
           ],
         },
         {
@@ -73,14 +77,6 @@ module.exports = {
         {
           title: 'Community',
           items: [
-            /*{
-              label: 'Slack',
-              href: 'https://stackoverflow.com/questions/tagged/startyourlab',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/startyourlab',
-            },*/
             {
               label: 'Help',
               to: 'community/support',
@@ -90,17 +86,9 @@ module.exports = {
               to: 'community/team',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/startyourlab',
+              label: 'Resources',
+              to: 'community/resources',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/startyourlab',
-            },
-            /*{
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/startyourlab',
-            },*/
           ],
         },
         {
@@ -109,6 +97,14 @@ module.exports = {
             {
               label: 'Blog',
               to: 'blog',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/startyourlab',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/startyourlab',
             },
             {
               label: 'Icons by Freepik',
@@ -145,7 +141,7 @@ module.exports = {
     ],
   ],
   stylesheets: [
-    'https://fonts.googleapis.com/css?family=Sen|Source+Code+Pro',
+    'https://fonts.googleapis.com/css?family=Source+Code+Pro',
   ],
   plugins: [
     [
