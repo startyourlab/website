@@ -7,7 +7,7 @@ slug: /github-accounts
 
 To use GitHub, you need a user account. This page will cover how to create such an account as well as other closely related things (like lab _organizations_).
 
-[GitHub.com](https://github.com/) is the online interface for GitHub, and it is where you will sign up for a personal user account. If you a lab director, it is also where you will create and manage your lab's organization on GitHub.
+[GitHub.com](https://github.com/) is the online interface for GitHub, and it is where you will sign up for a personal user account. If you are a lab director, it is also where you will create and manage your lab's organization on GitHub.
 
 ## Create your GitHub user account
 
@@ -38,7 +38,7 @@ Use your **personal email** (e.g. your Gmail, Hotmail, or similar address) when 
 For broad guidance from GitHub's official documentation about profile configuration, see [here](https://github.community/t/optimizing-your-github-profile/10211). Briefly, we recommend that you configure [your account's profile settings](https://github.com/settings/profile) to:
 
 - Include a clear, professionally-appropriate photo of your face as the profile picture.
-- Use your real name for your display name. This appears on the top of your profile, but otherwise is relatively easily changed (in contrast to the username; see above).
+- Use your real name for your display name. This appears on the top of your profile, but otherwise affects relatively little. You can easily change your display name (in contrast to the [username](#username)).
 - Write a brief professional bio. Bios are limited to 160 characters. Think about what information will be relevant to people considering collaborating with you, including expertise, interests, title or career stage, etc.
   - If you are part of a lab that has a GitHub organization, you can tag the lab within your bio using the **@** symbol followed by the lab's GitHub organization name, i.e., [**@sokolhessnerlab**](https://github.com/sokolhessnerlab).
 
@@ -60,7 +60,9 @@ Choose whether your membership in the organization is **private** or **public**.
 
 ## Just for lab directors
 
-**If you are the lab director**, the next step is to create an _organization_ on GitHub. This will provide a central place to host multiple repositories and facilitate collaboration and communication among your team members. For example, any new collaborators or lab members can simply be added to the organization, and thereby get access to all GitHub-related materials for the lab. Once you create the organization, you can then invite people to join.
+**If you are the lab director**, the next step is to create an _organization_ on GitHub. Once you create the organization, you can then invite people to join.
+
+_Organizations_ provide a central place to host multiple repositories and facilitate collaboration and communication among your team members. For example, any new collaborators or lab members can simply be added to the organization with one or two clicks, and thereby be given access to all GitHub-related materials for the lab.
 
 :::caution
 
@@ -78,6 +80,6 @@ Talk about permissions, and administration, and ...
 
 ### Invite lab members to the lab's GitHub
 
-Ask each lab member to create an account if not already, and then to configure it. When done, have them provide username back.
+Ask each lab member to [create an account](#create-your-gitHub-user-account) if they have not already, and then to [configure it](#configure-your-account). When done, ask for their username.
 
 Then, invite that username to the organization.
