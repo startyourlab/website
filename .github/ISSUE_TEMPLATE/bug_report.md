@@ -1,7 +1,7 @@
 ---
 name: "\U0001F41B Bug report"
 about: Create a bug report to help us improve this website
-title: "[Bug]"
+title: "[Bug] "
 labels: bug, needs triage
 assignees: ''
 
