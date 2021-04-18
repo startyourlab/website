@@ -1,11 +1,12 @@
 ---
 name: "\U0001F41B Bug report"
 about: Create a bug report to help us improve this website
-title: "[Bug] "
+title: "[BUG]"
 labels: bug, needs triage
 assignees: ''
 
 ---
+
 ## Describe the bug
 
 A clear and concise description of what the bug is.
