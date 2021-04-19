@@ -230,5 +230,512 @@
 				]
 			]
 		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/WXB6KHKZ",
+		"type": "article-journal",
+		"abstract": "Reproducibility has long been a tenet of science but has been challenging to achieve—we learned this the hard way when our old approaches proved inadequate to efficiently reproduce our own work. Here we describe how several free software tools have fundamentally upgraded our approach to collaborative research, making our entire workflow more transparent and streamlined. By describing specific tools and how we incrementally began using them for the Ocean Health Index project, we hope to encourage others in the scientific community to do the same—so we can all produce better science in less time.",
+		"container-title": "Nature Ecology & Evolution",
+		"DOI": "10.1038/s41559-017-0160",
+		"ISSN": "2397-334X",
+		"issue": "6",
+		"language": "en",
+		"note": "number: 6\npublisher: Nature Publishing Group",
+		"page": "1-7",
+		"source": "www.nature.com",
+		"title": "Our path to better science in less time using open data science tools",
+		"URL": "https://www.nature.com/articles/s41559-017-0160",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Lowndes",
+				"given": "Julia S. Stewart"
+			},
+			{
+				"family": "Best",
+				"given": "Benjamin D."
+			},
+			{
+				"family": "Scarborough",
+				"given": "Courtney"
+			},
+			{
+				"family": "Afflerbach",
+				"given": "Jamie C."
+			},
+			{
+				"family": "Frazier",
+				"given": "Melanie R."
+			},
+			{
+				"family": "O’Hara",
+				"given": "Casey C."
+			},
+			{
+				"family": "Jiang",
+				"given": "Ning"
+			},
+			{
+				"family": "Halpern",
+				"given": "Benjamin S."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					5,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/TTX9H59B",
+		"type": "article-journal",
+		"container-title": "PLOS Computational Biology",
+		"DOI": "10.1371/journal.pcbi.1004947",
+		"ISSN": "1553-7358",
+		"issue": "7",
+		"journalAbbreviation": "PLOS Computational Biology",
+		"language": "en",
+		"note": "publisher: Public Library of Science",
+		"page": "e1004947",
+		"source": "PLoS Journals",
+		"title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
+		"URL": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Perez-Riverol",
+				"given": "Yasset"
+			},
+			{
+				"family": "Gatto",
+				"given": "Laurent"
+			},
+			{
+				"family": "Wang",
+				"given": "Rui"
+			},
+			{
+				"family": "Sachsenberg",
+				"given": "Timo"
+			},
+			{
+				"family": "Uszkoreit",
+				"given": "Julian"
+			},
+			{
+				"family": "Leprevost",
+				"given": "Felipe da Veiga"
+			},
+			{
+				"family": "Fufezan",
+				"given": "Christian"
+			},
+			{
+				"family": "Ternent",
+				"given": "Tobias"
+			},
+			{
+				"family": "Eglen",
+				"given": "Stephen J."
+			},
+			{
+				"family": "Katz",
+				"given": "Daniel S."
+			},
+			{
+				"family": "Pollard",
+				"given": "Tom J."
+			},
+			{
+				"family": "Konovalov",
+				"given": "Alexander"
+			},
+			{
+				"family": "Flight",
+				"given": "Robert M."
+			},
+			{
+				"family": "Blin",
+				"given": "Kai"
+			},
+			{
+				"family": "Vizcaíno",
+				"given": "Juan Antonio"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					7,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/6M2E3L3T",
+		"type": "article-journal",
+		"container-title": "PLOS Computational Biology",
+		"DOI": "10.1371/journal.pcbi.1003506",
+		"ISSN": "1553-7358",
+		"issue": "3",
+		"journalAbbreviation": "PLOS Computational Biology",
+		"language": "en",
+		"note": "publisher: Public Library of Science",
+		"page": "e1003506",
+		"source": "PLoS Journals",
+		"title": "Ten Simple Rules for Effective Computational Research",
+		"URL": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Osborne",
+				"given": "James M."
+			},
+			{
+				"family": "Bernabeu",
+				"given": "Miguel O."
+			},
+			{
+				"family": "Bruna",
+				"given": "Maria"
+			},
+			{
+				"family": "Calderhead",
+				"given": "Ben"
+			},
+			{
+				"family": "Cooper",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Dalchau",
+				"given": "Neil"
+			},
+			{
+				"family": "Dunn",
+				"given": "Sara-Jane"
+			},
+			{
+				"family": "Fletcher",
+				"given": "Alexander G."
+			},
+			{
+				"family": "Freeman",
+				"given": "Robin"
+			},
+			{
+				"family": "Groen",
+				"given": "Derek"
+			},
+			{
+				"family": "Knapp",
+				"given": "Bernhard"
+			},
+			{
+				"family": "McInerny",
+				"given": "Greg J."
+			},
+			{
+				"family": "Mirams",
+				"given": "Gary R."
+			},
+			{
+				"family": "Pitt-Francis",
+				"given": "Joe"
+			},
+			{
+				"family": "Sengupta",
+				"given": "Biswa"
+			},
+			{
+				"family": "Wright",
+				"given": "David W."
+			},
+			{
+				"family": "Yates",
+				"given": "Christian A."
+			},
+			{
+				"family": "Gavaghan",
+				"given": "David J."
+			},
+			{
+				"family": "Emmott",
+				"given": "Stephen"
+			},
+			{
+				"family": "Deane",
+				"given": "Charlotte"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					3,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/AR38AZ2P",
+		"type": "article-journal",
+		"abstract": "Reproducibility is the hallmark of good science. Maintaining a high degree of transparency in scientific reporting is essential not just for gaining trust and credibility within the scientific community but also for facilitating the development of new ideas. Sharing data and computer code associated with publications is becoming increasingly common, motivated partly in response to data deposition requirements from journals and mandates from funders. Despite this increase in transparency, it is still difficult to reproduce or build upon the findings of most scientific publications without access to a more complete workflow.",
+		"container-title": "Source Code for Biology and Medicine",
+		"DOI": "10.1186/1751-0473-8-7",
+		"ISSN": "1751-0473",
+		"issue": "1",
+		"journalAbbreviation": "Source Code for Biology and Medicine",
+		"page": "7",
+		"source": "BioMed Central",
+		"title": "Git can facilitate greater reproducibility and increased transparency in science",
+		"URL": "https://doi.org/10.1186/1751-0473-8-7",
+		"volume": "8",
+		"author": [
+			{
+				"family": "Ram",
+				"given": "Karthik"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					2,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/4BN5E7WR",
+		"type": "article-journal",
+		"container-title": "Nature Neuroscience",
+		"DOI": "10.1038/nn.4550",
+		"ISSN": "1097-6256, 1546-1726",
+		"issue": "6",
+		"journalAbbreviation": "Nat Neurosci",
+		"language": "en",
+		"page": "770-773",
+		"source": "DOI.org (Crossref)",
+		"title": "Toward standard practices for sharing computer code and programs in neuroscience",
+		"URL": "http://www.nature.com/articles/nn.4550",
+		"volume": "20",
+		"author": [
+			{
+				"family": "Eglen",
+				"given": "Stephen J"
+			},
+			{
+				"family": "Marwick",
+				"given": "Ben"
+			},
+			{
+				"family": "Halchenko",
+				"given": "Yaroslav O"
+			},
+			{
+				"family": "Hanke",
+				"given": "Michael"
+			},
+			{
+				"family": "Sufi",
+				"given": "Shoaib"
+			},
+			{
+				"family": "Gleeson",
+				"given": "Padraig"
+			},
+			{
+				"family": "Silver",
+				"given": "R Angus"
+			},
+			{
+				"family": "Davison",
+				"given": "Andrew P"
+			},
+			{
+				"family": "Lanyon",
+				"given": "Linda"
+			},
+			{
+				"family": "Abrams",
+				"given": "Mathew"
+			},
+			{
+				"family": "Wachtler",
+				"given": "Thomas"
+			},
+			{
+				"family": "Willshaw",
+				"given": "David J"
+			},
+			{
+				"family": "Pouzat",
+				"given": "Christophe"
+			},
+			{
+				"family": "Poline",
+				"given": "Jean-Baptiste"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/NDUMEPKL",
+		"type": "article-journal",
+		"container-title": "Nature Human Behaviour",
+		"DOI": "10.1038/s41562-021-01084-x",
+		"ISSN": "2397-3374",
+		"journalAbbreviation": "Nat Hum Behav",
+		"language": "en",
+		"source": "DOI.org (Crossref)",
+		"title": "Fresh teams are associated with original and multidisciplinary research",
+		"URL": "http://www.nature.com/articles/s41562-021-01084-x",
+		"author": [
+			{
+				"family": "Zeng",
+				"given": "An"
+			},
+			{
+				"family": "Fan",
+				"given": "Ying"
+			},
+			{
+				"family": "Di",
+				"given": "Zengru"
+			},
+			{
+				"family": "Wang",
+				"given": "Yougui"
+			},
+			{
+				"family": "Havlin",
+				"given": "Shlomo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7522119/items/LIXAWJYF",
+		"type": "article-journal",
+		"container-title": "Nature",
+		"DOI": "10.1038/s41586-019-0941-9",
+		"ISSN": "0028-0836, 1476-4687",
+		"issue": "7744",
+		"journalAbbreviation": "Nature",
+		"language": "en",
+		"page": "378-382",
+		"source": "DOI.org (Crossref)",
+		"title": "Large teams develop and small teams disrupt science and technology",
+		"URL": "http://www.nature.com/articles/s41586-019-0941-9",
+		"volume": "566",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Lingfei"
+			},
+			{
+				"family": "Wang",
+				"given": "Dashun"
+			},
+			{
+				"family": "Evans",
+				"given": "James A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					2
+				]
+			]
+		}
 	}
 ]

@@ -4,9 +4,7 @@ title: Resources
 slug: /resources
 ---
 
-<!-- TODO: Implement a React component that renders the bibliography items -->
-import bibliography from '@site/src/data/bibliography.json';
-console.log(bibliography[0]);
+import { ArticleBibliography } from '@site/src/components/Bibliography';
 
 :::caution
 
@@ -23,9 +21,4 @@ A collection of useful and interesting resources that we believe will complement
 
 ## Peer-reviewed journal articles
 
-- Lowndes, J., Best, B., Scarborough, C. et al. (2017). Our path to better science in less time using open data science tools. _Nature Ecology & Evolution, 1_(0160). [https://doi.org/10.1038/s41559-017-0160](https://rdcu.be/ciG7U)
-- Ram, K. (2013). Git can facilitate greater reproducibility and increased transparency in science. _Source Code for Biology and Medicine, 8_(7). [https://doi.org/10.1186/1751-0473-8-7](https://rdcu.be/ciG7s)
-
-## Labs using Start Your Lab
-
-[These labs](/community/labs) use Start Your Lab materials, and serve as great examples to learn from!
+<ArticleBibliography />
