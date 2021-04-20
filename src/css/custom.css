@@ -35,7 +35,7 @@
   /* Custom CSS colors */
   --hero-content-background-color: rgba(255, 255, 255, 0.65);
   /* --ifm-navbar-background-color: #ffffff; */
-  --ifm-color-accent: #545464;
+  --ifm-color-accent: #383843;
   /* Define Infima font overrides */
   --ifm-font-family-base: 'Nunito', sans-serif;
   --ifm-heading-font-family: 'Nunito', sans-serif;
@@ -89,7 +89,13 @@ html[data-theme='dark'] {
 .footer__logo {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-  opacity: 0.7;
+  opacity: 0.65;
+}
+
+.footer__logo:hover {
+  opacity: 1;
+  transition: 300ms;
+  transition-timing-function: ease-in-out;
 }
 
 .footer__title {

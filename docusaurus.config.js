@@ -1,4 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+const baseUrl = process.env.BASE_URL || '/';
+
 module.exports = {
   title: 'Start Your Lab',
   tagline: 'Start Your Lab helps researchers learn how to work together effectively, reliably, and efficiently.',
@@ -114,7 +117,7 @@ module.exports = {
         },
       ],
       logo: {
-        src: 'img/logo.svg',
+        src: 'img/logo-dark.svg',
         alt: 'Start Your Lab Logo',
       },
       copyright: `Copyright © ${new Date().getFullYear()} Start Your Lab. Built with Docusaurus.`,
@@ -164,6 +167,64 @@ module.exports = {
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
         editUrl:
           'https://github.com/startyourlab/website/edit/production',
+      },
+    ],
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'img/startyourlab.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: `${baseUrl}manifest.json`,
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(76, 130, 169)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'img/startyourlab.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'img/startyourlab.svg',
+            color: 'rgb(78, 137, 232)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: 'img/startyourlab.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
       },
     ],
   ],
