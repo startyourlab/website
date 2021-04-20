@@ -1,4 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+
+const baseUrl = process.env.BASE_URL || '/';
+
 module.exports = {
   title: 'Start Your Lab',
   tagline: 'Start Your Lab helps researchers learn how to work together effectively, reliably, and efficiently.',
@@ -166,17 +169,14 @@ module.exports = {
           'https://github.com/startyourlab/website/edit/production',
       },
     ],
-  ],
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: isDeployPreview,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
           'queryString',
         ],
-        swRegister: true,
         pwaHead: [
           {
             tagName: 'link',
