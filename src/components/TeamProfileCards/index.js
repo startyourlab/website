@@ -137,7 +137,7 @@ export function IndustryAdvisorRow() {
         linkedinUrl="https://www.linkedin.com/in/ayushsood/"
         photoUrl="https://media-exp1.licdn.com/dms/image/C5603AQGToLXz7ucANA/profile-displayphoto-shrink_800_800/0/1606283709750?e=1623888000&v=beta&t=_ACZbwOqNaktX_c84n-jh-8cKxCny0V_DbT2dSDuK44">
         <Translate id="team.profile.Ayush Sood.body">
-          'Ayush currently runs the developer ecosystem at Facebook as an Engineering Manager. He previously co-founded a couple of companies in the data infrastructure space, and has built products with teams at Palantir and Dropbox. Ayush received his B.S. in Computer Science and Electrical Engineering from Stanford University.'
+          Ayush currently runs the developer ecosystem at Facebook as an Engineering Manager. He previously co-founded a couple of companies in the data infrastructure space, and has built products with teams at Palantir and Dropbox. Ayush received his B.S. in Computer Science and Electrical Engineering from Stanford University.
         </Translate>
       </TeamProfileCardCol>
       {/*<TeamProfileCardCol
