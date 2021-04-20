@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>brandmark</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-244.000000, -381.000000)" stroke="#1E1E24" stroke-width="1.31346914">
+            <g id="brandmark" transform="translate(244.000000, 381.000000)">
+                <ellipse id="Oval" fill="#F6F7F8" cx="35.8868764" cy="35.9227633" rx="35.2301418" ry="35.2660287"></ellipse>
+                <g id="Group" transform="translate(35.898940, 36.268645) rotate(-315.000000) translate(-35.898940, -36.268645) translate(18.898940, 19.268645)">
+                    <rect id="Rectangle" fill="#4C82A9" x="0" y="0" width="14.3547506" height="33.5279124" rx="1.04502584"></rect>
+                    <rect id="Rectangle" fill="#DF8768" x="19.1396674" y="0" width="14.3547506" height="14.3691053" rx="1.04502584"></rect>
+                    <rect id="Rectangle" fill="#FFF07C" x="19.1396674" y="19.1588071" width="14.3547506" height="14.3691053" rx="1.04502584"></rect>
+                    <line x1="14.2351276" y1="7.06481011" x2="19.0200445" y2="7.06481011" id="Line"></line>
+                    <line x1="26.1974198" y1="14.2493628" x2="26.1974198" y2="19.0390645" id="Line"></line>
+                    <line x1="14.2351276" y1="26.4631023" x2="19.0200445" y2="26.4631023" id="Line"></line>
+                </g>
+                <line x1="36.0072535" y1="13.2914224" x2="36.0072535" y2="0.119742544" id="Line-2"></line>
+                <line x1="70.8137528" y1="35.9227633" x2="58.92" y2="35.88" id="Line-2"></line>
+                <line x1="13.1585213" y1="35.9227633" x2="0.36" y2="35.88" id="Line-2"></line>
+                <line x1="36" y1="71.638796" x2="36.0064993" y2="58.7935892" id="Line-2"></line>
+            </g>
+        </g>
+    </g>
+</svg>
