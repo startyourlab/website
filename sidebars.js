@@ -9,6 +9,7 @@ module.exports = {
       label: 'Setup',
       items: [
         'setup/github-accounts',
+        'setup/github-desktop',
       ],
     },
     {
