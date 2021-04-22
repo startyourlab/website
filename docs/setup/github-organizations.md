@@ -1,0 +1,28 @@
+---
+id: github-organizations
+title: GitHub Organizations
+description: A guide to configure your lab's GitHub Organization
+slug: /github-organizations
+---
+
+To work on projects as a team effectively and efficiently, your lab needs a GitHub organization account. An organization serves as your lab's shared account to facilitate collaboration on multiple projects at once. For example, any new collaborators or lab members can simply be added to the organization with one or two clicks, and thereby be given access to all GitHub-related materials for the lab. Once you create your lab's organization, you can then invite your lab members who have already [created GitHub user accounts](/docs/github-accounts#create-your-github-user-account) to join.
+
+:::caution
+
+Proceed with caution: This page is still under construction!
+
+:::
+
+## Create your lab's GitHub organization
+
+To create your lab's organization, follow the [instructions from GitHub here](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch).
+
+## Configure your lab's GitHub organization
+
+Then, you will need to configure your lab's GitHub organization by customizing the settings.
+
+## Invite lab members to the lab's GitHub
+
+Ask each lab member to [create an account](#create-your-gitHub-user-account) if they have not already, and then to [configure it](#configure-your-account). When done, ask for their username.
+
+Then, invite that username to the organization.

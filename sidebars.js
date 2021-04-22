@@ -9,6 +9,7 @@ module.exports = {
       label: 'Setup',
       items: [
         'setup/github-accounts',
+        'setup/github-organizations',
         'setup/github-desktop',
       ],
     },
@@ -16,14 +17,8 @@ module.exports = {
       type: 'category',
       label: 'Tutorials',
       items: [
-        {
-          type: 'category',
-          label: 'GitHub',
-          items: [
-            // 'tutorials/your-first-commit',
-            'tutorials/git-goals',
-          ],
-        }
+        // 'tutorials/your-first-commit',
+        'tutorials/git-goals',
       ],
     },
     {
