@@ -4,7 +4,7 @@ const baseUrl = process.env.BASE_URL || '/';
 
 module.exports = {
   title: 'Start Your Lab',
-  tagline: 'Start Your Lab helps researchers learn how to work together effectively, reliably, and efficiently.',
+  tagline: 'Use modern tools to do your best science together.',
   url: 'https://www.startyourlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
