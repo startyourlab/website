@@ -31,9 +31,7 @@ use GitHub's web interface to implement each of the steps detailed below.
 
 ## Create your git goals file
 
-We invite you to develop what we call a <i>git goals file</i>. For example, [this is a completed git goals file](https://github.com/startyourlab/git-goals-tutorial/blob/main/git-goals-files/community/aridyckovsky.md).
-
-If you are working through this tutorial after participating in an official Start Your Lab workshop, you should select the **Workshop** tab below. Otherwise, you should stick with the **Community** tab to follow along with this tutorial.
+We invite you to create a <i>git goals file</i>. For example, [this is a completed git goals file](https://github.com/startyourlab/git-goals-tutorial/blob/main/git-goals-files/community/aridyckovsky.md). If you are working through this tutorial after participating in an official Start Your Lab workshop, you should select the **Workshop** tab below. Otherwise, you should stick with the **Community** tab to follow along with this tutorial.
 
 <Tabs
   groupId="participant-type"
@@ -45,7 +43,7 @@ If you are working through this tutorial after participating in an official Star
 }>
   <TabItem value="community">
     <p>
-      To get started, navigate into the <code>git-goals-files</code> folder on the tutorial's repository.
+      To get started, navigate into the <code>git-goals-files</code> folder on the tutorial's repository page.
       Then, open the <code>community</code> folder.
     </p>
     <p>
@@ -59,7 +57,7 @@ If you are working through this tutorial after participating in an official Star
   </TabItem>
   <TabItem value="workshop">
     <p>
-      To get started, navigate into the <code>git-goals-files</code> folder.
+      To get started, navigate into the <code>git-goals-files</code> folder on the tutorial's repository page.
       Then, open the <code>workshops</code> folder.
     </p>
     <p> 
