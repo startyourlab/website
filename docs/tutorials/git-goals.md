@@ -27,22 +27,18 @@ You can do so by [following these instructions](/docs/github-accounts#create-you
 Open the [tutorial repository](https://github.com/startyourlab/git-goals-tutorial). You will
 use GitHub's web interface to implement each of the steps detailed below.
 
-## Create your personal file
+## Create your personal goals file
 
-We invite you to create your personal file within the `community` folder.
+### General participants
+
+We invite you to create what we call a _personal goals file_ within the `community` folder.
 When inside the folder, click **Add file > Create new file**. Then, name your file
 using your GitHub username, like `username.md`. Make sure to include the file
 extension `.md`.
 
-:::info
-
-You can learn more about files ending in `.md` using the the [Markdown Guide](https://www.markdownguide.org/).
-
-:::
-
 ### Workshop participants
 
-If you are doing this tutorial after participating in an official Start Your Lab workshop, 
+If you are working through this tutorial after participating in an official Start Your Lab workshop, 
 please navigate into your workshop's folder, which you can find by looking for a blue
 folder icon next to a name that identifies your workshop, such as `du-psych`.
 Open your personal file by clicking on the associated filename ending in `.md`.
@@ -50,12 +46,45 @@ Open your personal file by clicking on the associated filename ending in `.md`.
 Can't find your named file? Please feel free to create one inside of your
 workshop's folder by clicking **Add file > Create new file**. Then, name your file
 using your first and last name, like `first-last.md`. Make sure to include the file
-extension `.md`.
+extension `.md`!
 
-## Edit your personal file
+:::info
 
-With your file page open, it's time to make some updates to reflect who you are
-and what your Git Goals are.
+You can learn more about files ending in `.md` using the the [Markdown Guide](https://www.markdownguide.org/).
+
+:::
+
+## Edit your personal goals file
+
+With your file page open, it's time to make some updates to reflect who you are and what your Git Goals are. Copy and paste the contents of the following template text into the live editor if it is not already there.
+
+```md
+# First Last
+
+## :mortar_board: Professional Summary
+
+A professional summary consistening of 2 or 3 sentences goes here.
+
+## :smile: Personal Fun Fact
+
+A personal fun fact goes here.
+
+## :white_check_mark: Best Practices Learning Goal
+
+A best practices learning goal goes here.
+```
+
+For this tutorial, we ask you to make the following changes:
+
+1. Change `First Last` to your name
+2. Add your pronouns next to your name
+3. Update your professional summary
+4. Include a personal fun fact
+5. Write your best practices learning goal
+
+When you've completed these five steps, you should head to the next step to _commit
+your changes_. Of course, after you finish this tutorial, we encourage using
+your imagination to personalize your goals file even more.
 
 :::tip
 
@@ -63,24 +92,12 @@ Use the **Preview** tab to check how the edits you make affect the file's appear
 
 :::
 
-For this tutorial, we ask you to make the following changes:
-
-1. Change "First Last" to your name
-2. Add your pronouns next to your name
-3. Update your professional summary
-4. Include a personal fun fact
-5. Write your best practices learning goal
-
-When you've completed these five steps, you should head to the next step to commit
-your changes. Of course, after you finish this tutorial, we _highly_ encourage using
-your imagination to personalize your file even more.
-
 <!-- TODO: Provide suggested next steps/ideas for personalizing -->
 
 ## Commit your changes
 
 Scroll further down on the same page to the **Commit changes** form, and write a summary description of 
-the changes you made above (5-10 words). You can use the extra text field to write an extended description.
+the changes you made above (just a few words). You can use the extra text field to write an extended description.
 
 Then, select the option to “Create a **new branch** for this commit and start a pull request.”
 In the provided text input, rename the branch (of the form `username-patch-1`) to `username-patch-descriptive-phrase`
