@@ -1,6 +1,17 @@
 ---
 id: introduction
 title: Introduction
+description: Documentation for getting started with tools like GitHub and Slack.
+keywords:
+  - docs
+  - documentation
+  - guide
+  - tutorials
+  - setup
+  - github
+  - git
+  - labs
+  - learn
 slug: /
 ---
 

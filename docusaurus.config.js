@@ -12,6 +12,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'startyourlab', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
+  customFields: {
+    description: 'Start Your Lab is an open-source initiative that teaches academic research teams how to work together effectively, reliably, and efficiently.'
+  },
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-192914800-2',

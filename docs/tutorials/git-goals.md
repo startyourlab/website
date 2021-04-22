@@ -1,7 +1,14 @@
 ---
 id: git-goals
 title: Git Goals
-description: Learn how to make your first real contribution on GitHub
+description: Learn how to make your first real contribution on GitHub with the Git Goals Tutorial
+keywords:
+  - git
+  - goal
+  - profile
+  - tutorial
+  - github
+  - learn
 slug: /tutorials/git-goals
 ---
 
