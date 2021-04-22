@@ -44,26 +44,59 @@ If you are working through this tutorial after participating in an official Star
   ]
 }>
   <TabItem value="community">
-    We invite you to create what we call a <i>git goals file</i> within the <code>community</code> folder.
-    When inside the folder, click <b>Add file > Create new file</b>. Then, name your file
-    using your GitHub username, like <code>username.md</code>. Make sure to include the file
-    extension <code>.md</code>.
-  </TabItem>
-  <TabItem value="workshop">
-    <p> 
-      Please navigate into your workshop's folder within the
-      <code>git-goals-tutorial</code> repository page, which you can find by looking for a blue
-      folder icon next to a name that identifies your workshop, such as <code>du-psych</code>.
-      Open your personal file by clicking on the associated filename ending in <code>.md</code>.
+    <p>
+      To get started, navigate into the <code>git-goals-files</code> folder on the tutorial's repository.
+      Then, open the <code>community</code> folder.
     </p>
     <p>
-      Can't find your named file? Please feel free to create one inside of your
+      While inside the <code>community</code> folder, click <b>Add file > Create new file</b>. Then, name your file
+      using your GitHub username, like <code>username.md</code>. Make sure to include the file
+      extension <code>.md</code>.
+    </p>
+    <p>
+      You should now copy and paste the contents of the following template text into the live editor for your new git goals file.
+    </p>
+  </TabItem>
+  <TabItem value="workshop">
+    <p>
+      To get started, navigate into the <code>git-goals-files</code> folder.
+      Then, open the <code>workshops</code> folder.
+    </p>
+    <p> 
+      Please navigate into your workshop's folder, which you can find by looking for a blue
+      folder icon next to a name that identifies your workshop, such as <code>du-psych</code>.
+      Open your personal git goals file by clicking on the associated filename ending in <code>.md</code>.
+    </p>
+    <p>
+      <b>Can't find your named file?</b>
+    </p>
+    <p>
+      Please feel free to create one inside of your
       workshop's folder by clicking <b>Add file > Create new file</b>. Then, name your file
-      using your first and last name, like <code>first-last.md</code>. Make sure to include the file
-      extension <code>.md</code>!
+      using your first and last name, like <code>first-last.md</code>, and be sure to include the file
+      extension <code>.md</code>.
+      You should now copy and paste the contents of the following template text into the live editor for your newly created git goals file.
     </p>
   </TabItem>
 </Tabs>
+
+### Template for git goals file contents
+
+```{md}
+# First Last
+
+## :mortar_board: Professional Summary
+
+A professional summary consistening of 2 or 3 sentences goes here.
+
+## :smile: Personal Fun Fact
+
+A personal fun fact goes here.
+
+## :white_check_mark: Best Practices Learning Goal
+
+A best practices learning goal goes here.
+```
 
 :::info
 
@@ -73,49 +106,7 @@ You can learn more about files ending in `.md` using the the [Markdown Guide](ht
 
 ## Edit your git goals file
 
-With your git goals file page open, it's time to make some updates to reflect who you are and what your Git Goals are.
-
-<Tabs
-  groupId="participant-type"
-  defaultValue="community"
-  values={[
-    {label: 'Community', value: 'community'},
-    {label: 'Workshop', value: 'workshop'},
-  ]
-}>
-  <TabItem value="community">
-    Copy and paste the contents of the following template text into the live editor if it is not already there.
-
-    # First Last
-
-    ## :mortar_board: Professional Summary
-
-    A professional summary consistening of 2 or 3 sentences goes here.
-
-    ## :smile: Personal Fun Fact
-
-    A personal fun fact goes here.
-
-    ## :white_check_mark: Best Practices Learning Goal
-
-    A best practices learning goal goes here.
-
-  </TabItem>
-  <TabItem value="workshop">
-    <p>
-      If you are working through this tutorial after participating in an official Start Your Lab workshop, 
-      please navigate into your workshop's folder, which you can find by looking for a blue
-      folder icon next to a name that identifies your workshop, such as <code>du-psych</code>.
-      Open your personal file by clicking on the associated filename ending in <code>.md</code>.
-    </p>
-    <p>
-      Can't find your named file? Please feel free to create one inside of your
-      workshop's folder by clicking <b>Add file > Create new file</b>. Then, name your file
-      using your first and last name, like <code>first-last.md</code>. Make sure to include the file
-      extension <code>.md</code>!
-    </p>
-  </TabItem>
-</Tabs>
+After creating your git goals file, including the [template](#template-for-git-goals-file-contents), it's time to make some updates to reflect who you are and what your Git Goals are.
 
 For this tutorial, we ask you to make the following changes:
 
@@ -155,7 +146,7 @@ and the body should look like the following code block:
 ```md
 # Summary of the changes made to your personal file
 
-Please delete this line and replace it with a short summary of the changes made to your personal file.
+Please delete this line and replace it with a short summary of the changes made to your personal git goals file.
 
 ```
 
@@ -167,7 +158,7 @@ the Start Your Lab team that you have made changes.
 ## After your pull request
 
 Once you submit a pull request, a member of the Start Your Lab team will review the
-proposed changes to your personal file to make sure everything works as expected. This
+proposed changes to your git goals file to make sure everything works as expected. This
 review is _not_ a test and serves only as an opportunity for you to receive constructive, friendly,
 and supportive feedback on your first contribution from the Start Your Lab team.
 
