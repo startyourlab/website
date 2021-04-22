@@ -10,34 +10,54 @@ keywords:
 slug: /github-desktop
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 :::caution
 
 Proceed with caution: This page is still under construction!
 
 :::
 
-[GitHub Desktop](https://desktop.github.com/) is an open-source product built by GitHub that makes it
-easier to work with Git. We describe how to start using GitHub Desktop in the following steps.
+[GitHub Desktop](https://desktop.github.com/) is an open-source application that GitHub created to make working with [Git](https://git-scm.com/) less complicated. That makes GitHub Desktop a great option for those who may be new to using a version control system to collaborate on projects. If you are more experienced with version control and using the command line, you may be interested in trying [GitHub CLI](https://cli.github.com/).
 
-_Please note: This option is only available for Mac OS and Windows. You can 
-[read more here](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/supported-operating-systems)
-about which operating systems are supported for GitHub Desktop._
+In the following steps, we walk through how to configure GitHub Desktop for your own computer(s) and GitHub user account.
+
+:::note
+
+This option is only available for Mac OS and Windows. You can [read more here](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/supported-operating-systems) about which operating systems are supported for GitHub Desktop.
+
+:::
 
 ## Installation
 
-To download and install onto your computer, please follow the instructions on [this
-page](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop),
-selecting Mac or Windows (depending on your computer's operating system).
+To install GitHub Desktop on your computer, follow the instructions in [the official documentation](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-github-desktop), selecting Mac or Windows (depending on your computer's operating system).
 
-After installation is complete, open the GitHub Desktop application and continue to the following step
-to connect your GitHub user account with GitHub Desktop.
+After installation is complete, open GitHub Desktop. The next step is to connect your GitHub user account with GitHub Desktop.
 
-## Account configuration
+:::note
 
-Now that you've installed the GitHub Desktop application, it's time to connect it to your
-GitHub account by signing in as an authenticated user. To proceed with
-authentication, use the menu bar's drop-down for **GitHub Desktop** and select **Preferences**,
-as shown in the screenshot (on Windows, navigate to the **File** drop-down menu and select **Options**):
+The screenshots on this page were created on a Mac computer, but all instructions are written for both.
+
+:::
+
+## Connect your account
+
+<Tabs
+  groupId="operating-systems"
+  defaultValue="mac"
+  values={[
+    {label: 'macOS', value: 'mac'},
+    {label: 'Windows', value: 'win'},
+  ]
+}>
+  <TabItem value="mac">
+    Now that you've installed the GitHub Desktop application, it's time to connect it to your GitHub account by signing in as an authenticated user. To proceed with authentication, use the menu bar's drop-down for <b>GitHub Desktop</b> and select <b>Preferences</b>, as shown in the screenshot.
+  </TabItem>
+  <TabItem value="win">
+    Now that you've installed the GitHub Desktop application, it's time to connect it to your GitHub account by signing in as an authenticated user. To proceed with authentication, navigate to the <b>File</b> drop-down menu and select <b>Options</b>.
+  </TabItem>
+</Tabs>
 
 <div style={{ textAlign: 'center', paddingTop: '1em', paddingBottom: '1em', }}>
   <img
@@ -47,8 +67,7 @@ as shown in the screenshot (on Windows, navigate to the **File** drop-down menu 
   />
 </div>
 
-In the preferences window, select **Accounts** and click the **Sign In** button for
-GitHub.com.
+In the preferences window, select **Accounts** and click the **Sign In** button for GitHub.com.
 
 <div style={{ textAlign: 'center', paddingTop: '1em', paddingBottom: '1em', }}>
   <img
@@ -57,12 +76,7 @@ GitHub.com.
   />
 </div>
 
-The application will then ask you to sign in using your browser. You be asked to either
-**Sign in using your browser** or **Continue With Browser**. Whichever it is, click that
-button, and your default browser will be opened to GitHub's browser application. If you're
-not already signed in, do so at this point. Then, you will be redirected to a new page
-that authorizes GitHub Desktop to access your GitHub account. It should look similar to
-this screen where the GitHub user **@aridyckovsky** is asked to give access to his account:
+The application will then ask you to sign in using your browser. You will be asked to either **Sign in using your browser** or **Continue With Browser**. Whichever it is, click that button, and your default browser will be opened to GitHub's browser application. If you're not already signed in, do so at this point. Then, you will be redirected to a new page that authorizes GitHub Desktop to access your GitHub account. It should look similar to this screen where the GitHub user **@aridyckovsky** is asked to give access to his account:
 
 <div style={{ textAlign: 'center', paddingTop: '1em', paddingBottom: '1em', }}>
   <img
@@ -71,14 +85,9 @@ this screen where the GitHub user **@aridyckovsky** is asked to give access to h
   />
 </div>
 
-Once you've read the conditions of access using the drop-down arrows, please click **Authorize desktop**.
-With the authentication is complete, launch the desktop application (you may be prompted to do so by
-your browser, and you should take this chance to do so!).
+Once you've read, and agreed to, the conditions of access using the drop-down arrows, please click **Authorize desktop**. With the authentication is complete, launch the desktop application (you may be prompted to do so by your browser, and you should take this chance to do so!).
 
-After a successful sign in, you should be brought back to the "Let's get started!" screen. If you
-have already created or contributed to repositories, they will show up on the righthand side of
-the application window with a text input field to filter your repositories, such as the
-**startyourlab** repositories in this screenshot:
+After a successful sign in, you should be brought back to the "Let's get started!" screen. If you have _already created_ or _contributed to_ repositories, they will show up on the righthand side of the application window with a text input field to filter your repositories, such as the **startyourlab** repositories in this screenshot:
 
 <div style={{ textAlign: 'center', paddingTop: '1em', paddingBottom: '1em', }}>
   <img
@@ -87,16 +96,41 @@ the application window with a text input field to filter your repositories, such
   />
 </div>
 
-## Integrations
+<!-- TODO: Link to a specific tutorial -->
+If you don't have any repositories connected to your account, that's completely fine. You can learn more about creating and contributing to repositories in a tutorial.
 
-...
+## Configure your Git defaults
 
-## Git defaults
+<Tabs
+  groupId="operating-systems"
+  defaultValue="mac"
+  values={[
+    {label: 'macOS', value: 'mac'},
+    {label: 'Windows', value: 'win'},
+  ]
+}>
+  <TabItem value="mac">
+    To synchonrize versions of files on your computer with versions of files on GitHub, you need to configure Git on your computer. In the <b>Git</b> tab of the <b>Preferences</b> pane, add your full name and email address (this should be the <a href={'/docs/github-accounts#email-address'}>same email address</a> that you signed up to GitHub with). We suggest using `main` as the default branch for new repositories.
+  </TabItem>
+  <TabItem value="win">
+    To synchonrize versions of files on your computer with versions of files on GitHub, you need to configure Git on your computer. In the <b>Git</b> tab of the <b>Options</b> pane, add your full name and email address (this should be the <a href={'/docs/github-accounts#email-address'}>same email address</a> that you signed up to GitHub with). We suggest using `main` as the default branch for new repositories.
+  </TabItem>
+</Tabs>
 
-...
+## Pick your integrations
 
-## Appearance
-
-...
-
-
+<Tabs
+  groupId="operating-systems"
+  defaultValue="mac"
+  values={[
+    {label: 'macOS', value: 'mac'},
+    {label: 'Windows', value: 'win'},
+  ]
+}>
+  <TabItem value="mac">
+    After connecting your account, you should select which applications you would like to integrate with GitHub Desktop. In the <b>Integrations</b> tab of the <b>Preferences</b> pane, you can select your preferred text editor (i.e., Atom, Sublime Text, VS Code). If you have a shell other than Terminal, you have the option to set that alternative shell as the default.
+  </TabItem>
+  <TabItem value="win">
+    After connecting your account, you should select which applications you would like to integrate with GitHub Desktop. In the <b>Integrations</b> tab of the <b>Options</b> pane, you can select your preferred text editor (i.e., Atom, Sublime Text, VS Code). If you have a shell other than Command Prompt, you have the option to set that alternative shell as the default.
+  </TabItem>
+</Tabs>
