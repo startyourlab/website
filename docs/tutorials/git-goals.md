@@ -31,7 +31,7 @@ use GitHub's web interface to implement each of the steps detailed below.
 
 ## Create your git goals file
 
-We invite you to develop what we call a <i>git goals file</i>. For example, [this is a completed git goals file](https://github.com/startyourlab/git-goals-tutorial/blob/main/community/aridyckovsky.md).
+We invite you to develop what we call a <i>git goals file</i>. For example, [this is a completed git goals file](https://github.com/startyourlab/git-goals-tutorial/blob/main/git-goals-files/community/aridyckovsky.md).
 
 If you are working through this tutorial after participating in an official Start Your Lab workshop, you should select the **Workshop** tab below. Otherwise, you should stick with the **Community** tab to follow along with this tutorial.
 
