@@ -26,7 +26,7 @@ You can do so by [following these instructions](/docs/github-accounts#create-you
 
 ## Setup
 
-You can participate in this tutorial using just the GitHub.com interface. To setup this tutorial, simply open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial).
+You can participate in this tutorial using just the GitHub.com interface. To setup this tutorial, simply open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial). To complete the tutorial, follow the steps below on this page.
 
 ### Pick the guide that's right for you
 
