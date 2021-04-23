@@ -62,7 +62,7 @@ The goal of this tutorial is to create a <i>git goals file</i>, where you will d
       extension <code>.md</code>.
     </p>
     <p>
-      You should now copy and paste the contents of the <a href="#template-for-git-goals-file-contents">template text below</a> into the live editor for your newly created git goals file. into the live editor for your new git goals file.
+      You should now copy and paste the contents of the <a href="#template-for-git-goals-file-contents">template text below</a> into the live editor for your newly created git goals file.
     </p>
   </TabItem>
   <TabItem value="workshop">
