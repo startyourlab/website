@@ -96,7 +96,7 @@ The goal of this tutorial is to create a <i>git goals file</i>, where you will d
 
 If you are creating a git goals file, use this template. If you already have a git goals file, just use the existing template in that file.
 
-```{md}
+```md
 # First Last (pronouns)
 
 ## :mortar_board: Professional Summary
@@ -176,7 +176,7 @@ and supportive feedback on your first contribution from the Start Your Lab team.
 If we happen to notice a way to improve your pull request, we'll let you know by leaving a
 comment on the pull request page. If so, it's pretty easy to edit the file, and we'd be happy to guide you through that. Then, when everything
 is in tip-top shape, we can approve your changes and _merge_ them into the
-main, public-facing version of the project, called the _main branch_. Once your requested changes are pulled into the repository's main branch (the default, working version of the project), your pull request will be closed and you will be able to find your git goals file in the [main tutorial repository's `git-goals-files`](https://github.com/startyourlab/git-goals-tutorial/tree/main/git-goals-files).
+main, public-facing version of the project, called the _main branch_. Once your requested changes are pulled into the repository's main branch (the default, working version of the project), your pull request will be closed and you will be able to find your git goals file in the [main tutorial repository's `git-goals-files`](https://github.com/startyourlab/git-goals-tutorial/tree/main/git-goals-files) folder.
 
 <!-- TODO: What happens after pull request submitted -->
 
