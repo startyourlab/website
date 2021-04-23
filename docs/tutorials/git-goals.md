@@ -26,12 +26,24 @@ You can do so by [following these instructions](/docs/github-accounts#create-you
 
 ## Setup
 
-Open the [tutorial repository](https://github.com/startyourlab/git-goals-tutorial). You will
-use GitHub's web interface to implement each of the steps detailed below.
+You can participate in this tutorial using just the GitHub.com interface. To setup this tutorial, simply open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial).
+
+### Pick the guide that's right for you
+
+If you are working through this tutorial after participating in an official Start Your Lab workshop, you should select the **Workshop Participant** tab below. Otherwise, you should stick with the **Community Member** tab to follow along with this tutorial.
+
+<Tabs
+  groupId="participant-type"
+  defaultValue="community"
+  values={[
+    {label: 'Community Member', value: 'community'},
+    {label: 'Workshop Participant', value: 'workshop'},
+  ]
+} />
 
 ## Create your git goals file
 
-We invite you to create a <i>git goals file</i>. For example, [this is a completed git goals file](https://github.com/startyourlab/git-goals-tutorial/blob/main/git-goals-files/community/aridyckovsky.md). If you are working through this tutorial after participating in an official Start Your Lab workshop, you should select the **Workshop** tab below. Otherwise, you should stick with the **Community** tab to follow along with this tutorial.
+We invite you to create a <i>git goals file</i>, where you will describe yourself with a professional summary, a fun fact, and a short description of a goal you have related to best practices. For example, you can view Ari Dyckovsky's git goals file [at this link](https://github.com/startyourlab/git-goals-tutorial/blob/main/git-goals-files/community/aridyckovsky.md).
 
 <Tabs
   groupId="participant-type"
@@ -78,10 +90,16 @@ We invite you to create a <i>git goals file</i>. For example, [this is a complet
   </TabItem>
 </Tabs>
 
+:::info
+
+You can learn more about Markdown documents (files ending in `.md`) using the [Markdown Guide](https://www.markdownguide.org/).
+
+:::
+
 ### Template for git goals file contents
 
 ```{md}
-# First Last
+# First Last (pronouns)
 
 ## :mortar_board: Professional Summary
 
@@ -96,13 +114,13 @@ A personal fun fact goes here.
 A best practices learning goal goes here.
 ```
 
-:::info
+:::note
 
-You can learn more about files ending in `.md` using the the [Markdown Guide](https://www.markdownguide.org/).
+This template uses [emoji codes](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md), i.e., `:morter_board:` for 🎓. 
 
 :::
 
-## Edit your git goals file
+## Add your git goals
 
 After creating your git goals file, including the [template](#template-for-git-goals-file-contents), it's time to make some updates to reflect who you are and what your Git Goals are.
 
@@ -114,32 +132,20 @@ For this tutorial, we ask you to make the following changes:
 4. Include a personal fun fact
 5. Write your best practices learning goal
 
-When you've completed these five steps, you should head to the next step to _commit
-your changes_. Of course, after you finish this tutorial, we encourage using
-your imagination to personalize your goals file even more.
+After you've completed writing the contents of your git goals file and checking out its preview, you should propose your changes to the repository.
 
-:::tip
+## Propose your changes
 
-Use the **Preview** tab to check how the edits you make affect the file's appearance.
-
-:::
-
-<!-- TODO: Provide suggested next steps/ideas for personalizing -->
-
-## Commit your changes
-
-Scroll further down on the same page to the **Commit changes** form, and write a summary description of 
-the changes you made above (just a few words). You can use the extra text field to write an extended description.
-
-Then, select the option to “Create a **new branch** for this commit and start a pull request.”
-In the provided text input, rename the branch (of the form `username-patch-1`) to `username-patch-descriptive-phrase`
-(i.e., `username-patch-pronouns`). Click **Propose changes**.
+Below the file editor, use the provided form to write a summary description of 
+the changes you made above (just a few words). You can use the larger text area below to write an extended description, which can help provide more context around your file modifications for both you and your team.
 
 ## Create a pull request
 
-After committing your changes, you will be asked to create a pull request.
-The title of your pull request should be the summary description you wrote in the previous step,
-and the body should look like the following code block: 
+<!-- TODO: Need to add some in-tutorial links to glossary when ready -->
+After proposing your changes, you will be brought to a page titled "Comparing changes". This is where you will create a _pull request_, which informs the Start Your Lab team that you would like to add your completed git goals file to the tutorial repository. Click **Create pull request**, and it will bring you to a text editor to describe your pull request.
+
+The title of your pull request should automatically use the summary description text that you wrote in the previous step,
+and the body should will like the code block: 
 
 ```md
 # Summary of the changes made to your personal file
@@ -148,7 +154,7 @@ Please delete this line and replace it with a short summary of the changes made 
 
 ```
 
-To fill out the template, simply replace the `Please delete ...` line with documentation of your changes.
+To fill out the pull request's template, simply replace the `Please delete ...` line with documentation of your changes.
 There will be many other things on the page, but don't worry about them for this tutorial. When you've documented
 the changes you made, simply click the green **Create pull request** button. This submits your request and notifies
 the Start Your Lab team that you have made changes.
@@ -170,3 +176,8 @@ main, public-facing version of the project.
 ## Congratulations on your first contribution!
 
 You did it! You made your first real contribution to a GitHub repository.
+
+
+### Tutorial feedback
+
+We welcome and appreciate any feedback you may have about this tutorial. You can send your feedback to [feedback@startyourlab.com](mailto:feedback@startyourlab.com?subject=Git%20Goals%20Tutorial%20Feedback)
