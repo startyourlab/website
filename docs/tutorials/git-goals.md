@@ -137,9 +137,16 @@ When you think your git goals file is ready to go, you can click on the "Preview
 
 ## Propose your changes
 
-Below the file editor, there's a small form with the phrase **Commit Changes** at the top. This is where you write a message that briefly describes what you just did, giving enough context that someone who later wants to understand what happened in the file could read your description and know roughly what changes were made.
+Below the file editor, there's a small form with the phrase **Propose changes** or **Propose new file** at the top. This is where you write a message that briefly describes what you just did, giving enough context that someone who later wants to understand what happened in the file could read your description and know roughly what changes were made.
 
 Use the provided form to write a brief title message that describes the changes you made above (just a few words, e.g. "filled out git goals profile"). You can use the larger text box below to write an extended description, which can help provide more context around your file modifications for both you and your team. Then, click the button to submit the proposed changes.
+
+
+:::tip
+
+Part of the philosophy of Git is to always make changes _intentionally_. That means that every time you want to integrate a change into your main code, you have to fill out a message like this summarizing what you did. When the repository is not yours or one you've explicitly been granted access to, you **Propose** changes. When the repository is yours, or someone has given you special access to it, you **Commit** changes. They function very similarly in most other respects.
+
+:::
 
 ## Create a pull request
 
