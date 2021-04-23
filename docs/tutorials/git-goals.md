@@ -53,7 +53,7 @@ The goal of this tutorial is to create a <i>git goals file</i>, where you will d
 }>
   <TabItem value="community">
     <p>
-      To get started, open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial) in a new browser window, and then navigate into the <code>git-goals-files</code> folder on the tutorial's repository page.
+      To get started, open the <a href="https://github.com/startyourlab/git-goals-tutorial">Git Goal Tutorial's GitHub repository</a> in a new browser window, and then navigate into the <code>git-goals-files</code> folder on the tutorial's repository page.
       Then, open the <code>community</code> folder.
     </p>
     <p>
@@ -62,12 +62,12 @@ The goal of this tutorial is to create a <i>git goals file</i>, where you will d
       extension <code>.md</code>.
     </p>
     <p>
-      You should now copy and paste the contents of the following template text into the live editor for your new git goals file.
+      You should now copy and paste the contents of the You should now copy and paste the contents of the <a href="#template-for-git-goals-file-contents">template text below</a> into the live editor for your newly created git goals file. into the live editor for your new git goals file.
     </p>
   </TabItem>
   <TabItem value="workshop">
     <p>
-      To get started, open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial) in a new browser window, and then navigate into the <code>git-goals-files</code> folder on the tutorial's repository page.
+      To get started, open the <a href="https://github.com/startyourlab/git-goals-tutorial">Git Goal Tutorial's GitHub repository</a> in a new browser window, and then navigate into the <code>git-goals-files</code> folder on the tutorial's repository page.
       Then, open the <code>workshops</code> folder.
     </p>
     <p>
@@ -81,8 +81,7 @@ The goal of this tutorial is to create a <i>git goals file</i>, where you will d
       If you can't find your named file in your workshop folder, please feel free to create one inside of your
       workshop's folder by clicking <b>Add file > Create new file</b>. Then, name your file
       using your first and last name, like <code>first-last.md</code>, and be sure to include the file
-      extension <code>.md</code>.
-      You should now copy and paste the contents of the [template text below](#template-for-git-goals-file-contents) into the live editor for your newly created git goals file.
+      extension <code>.md</code>. You should now copy and paste the contents of the <a href="#template-for-git-goals-file-contents">template text below</a> into the live editor for your newly created git goals file.
     </p>
   </TabItem>
 </Tabs>
