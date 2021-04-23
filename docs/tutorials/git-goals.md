@@ -26,7 +26,7 @@ You can do so by [following these instructions](/docs/github-accounts#create-you
 
 ## Setup
 
-You can participate in this tutorial using just the GitHub.com interface. To setup this tutorial, simply open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial). To complete the tutorial, follow the steps below on this page.
+You can participate in this tutorial using just the GitHub.com interface. To setup this tutorial, open the [Git Goal Tutorial's GitHub repository](https://github.com/startyourlab/git-goals-tutorial) in a new browser window. The steps to follow for this tutorial are detailed here on this page.
 
 ### Pick the guide that's right for you
 
@@ -136,8 +136,8 @@ After you've completed writing the contents of your git goals file and checking 
 
 ## Propose your changes
 
-Below the file editor, use the provided form to write a summary description of 
-the changes you made above (just a few words). You can use the larger text area below to write an extended description, which can help provide more context around your file modifications for both you and your team.
+Below the file editor, use the provided form to write a brief title message that expresses 
+the changes you made above (just a few words). You can use the larger text box below to write an extended description, which can help provide more context around your file modifications for both you and your team. Then, click the button to submit the proposed changes.
 
 ## Create a pull request
 
@@ -159,17 +159,22 @@ There will be many other things on the page, but don't worry about them for this
 the changes you made, simply click the green **Create pull request** button. This submits your request and notifies
 the Start Your Lab team that you have made changes.
 
+:::tip
+
+GitHub pull requests allow you to write 
+
+:::
+
 ## After your pull request
 
-Once you submit a pull request, a member of the Start Your Lab team will review the
-proposed changes to your git goals file to make sure everything works as expected. This
+Once you submit a pull request, the process isn't over, but that's all you need to do for now! At this point, a member of the Start Your Lab team will review the proposed changes to your git goals file and make sure everything works as expected. This
 review is _not_ a test and serves only as an opportunity for you to receive constructive, friendly,
 and supportive feedback on your first contribution from the Start Your Lab team.
 
 If we happen to notice a way to improve your pull request, we'll let you know by leaving a
 comment on the pull request page. Then, when everything
 is in tip-top shape, we can approve your changes and merge your changes into the
-main, public-facing version of the project.
+main, public-facing version of the project. Once your requested changes are pulled into the repository's main branch (the default, working version of the project), your pull request will be closed and you will be able to find your git goals file in the [main tutorial repository's `git-goals-files`](https://github.com/startyourlab/git-goals-tutorial/tree/main/git-goals-files).
 
 <!-- TODO: What happens after pull request submitted -->
 
