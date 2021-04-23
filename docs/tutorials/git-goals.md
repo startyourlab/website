@@ -187,4 +187,4 @@ You did it! You made your first real contribution to a GitHub repository. Not to
 
 ### Tutorial feedback
 
-This tutorial is relatively new! We welcome, value, and appreciate any feedback you may have about this tutorial. You can send your feedback to [feedback@startyourlab.com](mailto:feedback@startyourlab.com?subject=Git%20Goals%20Tutorial%20Feedback)
+This tutorial is relatively new! We welcome, value, and appreciate any feedback you may have about this tutorial. You can send your feedback to [feedback@startyourlab.com](mailto:feedback@startyourlab.com?subject=Git%20Goals%20Tutorial%20Feedback). 
