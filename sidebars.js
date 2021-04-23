@@ -30,6 +30,10 @@ module.exports = {
       ],
     },
     {
+      type: 'doc',
+      id: 'glossary',
+    },
+    {
       type: 'link',
       label: 'Templates',
       href: 'https://github.com/startyourlab',
