@@ -62,7 +62,7 @@ An analogy would be when working with a grant proposal, if you want to make majo
 
 ### Merge
 
-**Merging** is the process by which two versions of code are compared, reconciled, and ultimately combined to make one new version of that code. It is the final step in the GitHub cycle.
+**Merging** is the process by which two versions of code are compared, reconciled, and ultimately combined to make one new version of that code. It is the final step in the GitHub workflow.
 
 ### Labels
 
