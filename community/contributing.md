@@ -1,7 +1,7 @@
 ---
 id: contributing
 title: Contributing
-description: Learn how you can contribute to Start Your Lab
+description: Learn how you can contribute to Start Your Lab. We welcome community contributions.
 ---
 <!-- Much of the content adapted from Docusaurus v2's contributing documentation -->
 

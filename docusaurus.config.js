@@ -4,7 +4,7 @@ const baseUrl = process.env.BASE_URL || '/';
 
 module.exports = {
   title: 'Start Your Lab',
-  tagline: 'Start Your Lab helps researchers learn how to work together effectively, reliably, and efficiently.',
+  tagline: 'Use modern tools to do your best science together.',
   url: 'https://www.startyourlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -12,6 +12,9 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'startyourlab', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
+  customFields: {
+    description: 'Start Your Lab is an open-source initiative that teaches academic research teams how to work together effectively, reliably, and efficiently.'
+  },
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-192914800-2',
@@ -49,8 +52,8 @@ module.exports = {
       ],
     },
     prism: {
-      theme: require('prism-react-renderer/themes/github'),
-      darkTheme: require('prism-react-renderer/themes/dracula'),
+      theme: require('prism-react-renderer/themes/nightOwlLight'),
+      darkTheme: require('prism-react-renderer/themes/oceanicNext'),
     },
     footer: {
       style: 'dark',
@@ -131,6 +134,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/startyourlab/website/edit/production',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,

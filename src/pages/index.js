@@ -111,15 +111,13 @@ const particlesConfig = {
 
 export default function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const {siteConfig: {customFields = {}, tagline} = {}} = context;
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title={tagline} description={customFields.description}>
       <header className={clsx('hero hero--primary', styles.heroBanner)}>   
         <Particles params={particlesConfig} />
         <div className={styles.heroContent}>
-          <h1 className="hero__title">Use modern tools to do your best science together.</h1>
+          <h1 className="hero__title">{tagline}</h1>
           <div className={styles.buttons}>
             <Link
               className={clsx(

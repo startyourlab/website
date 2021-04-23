@@ -1,13 +1,13 @@
 ---
 id: github-accounts
 title: GitHub Accounts
-description: A guide to configure your GitHub account
+description: A guide to configure your GitHub user account
 slug: /github-accounts
 ---
 
-To use GitHub, you need a user account. This page will cover how to create such an account as well as other closely related things (like lab _organizations_).
+To use GitHub, you need a user account. This page will cover how to create such an account.
 
-[GitHub.com](https://github.com/) is the online interface for GitHub, and it is where you will sign up for a personal user account. If you are a lab director, this is also where you will create and manage your lab's organization on GitHub.
+[GitHub.com](https://github.com/) is the online interface for GitHub, and it is where you will sign up for a personal user account. If you are a lab director, this is also where you will create and manage your lab's organization on GitHub. Our guide for setting up GitHub organizations is [listed here](/docs/github-organizations).
 
 ## Create your GitHub user account
 
@@ -50,36 +50,13 @@ GitHub profiles do not currently provide direct input fields to add additional p
 
 :::
 
-## Join your lab's GitHub organization
+## Join your lab's organization on GitHub
 
 If your lab has a GitHub organization, join it! You may need the lab director to invite you to join or approve your membership in the organization.
+
+If your lab does not have a GitHub organization, talk to your lab's director about [creating an organization](/docs/github-organizations#create-your-labs-github-organization).
 
 ### Set your membership visibility
 
 Choose whether your membership in the organization is **private** or **public**. You can make this choice once you've joined your lab's organization on the "members" page. This doesn't affect your visibility within the organization - you are always visible to other organization members. If you choose *private* , outside people will not see you listed when viewing members of the GitHub organization. If you select *public*, anyone will be able to see that you are a member of this organization. Generally, we recommend selecting **public** membership, but if you are concerned about privacy or similar issues, private membership is completely fine.
 
-## Just for lab directors
-
-**If you are the lab director**, the next step is to create an _organization_ on GitHub. Once you create the organization, you can then invite people to join.
-
-_Organizations_ provide a central place to host multiple repositories and facilitate collaboration and communication among your team members. For example, any new collaborators or lab members can simply be added to the organization with one or two clicks, and thereby be given access to all GitHub-related materials for the lab.
-
-:::caution
-
-Proceed with caution: The rest of this page is still under construction!
-
-:::
-
-### Create your lab's GitHub organization
-
-Walk through ...
-
-### Configure your lab's GitHub organization
-
-Talk about permissions, and administration, and ...
-
-### Invite lab members to the lab's GitHub
-
-Ask each lab member to [create an account](#create-your-gitHub-user-account) if they have not already, and then to [configure it](#configure-your-account). When done, ask for their username.
-
-Then, invite that username to the organization.
