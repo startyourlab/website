@@ -159,12 +159,6 @@ There will be many other things on the page, but don't worry about them for this
 the changes you made, simply click the green **Create pull request** button. This submits your request and notifies
 the Start Your Lab team that you have made changes.
 
-:::tip
-
-GitHub pull requests allow you to write 
-
-:::
-
 ## After your pull request
 
 Once you submit a pull request, the process isn't over, but that's all you need to do for now! At this point, a member of the Start Your Lab team will review the proposed changes to your git goals file and make sure everything works as expected. This
