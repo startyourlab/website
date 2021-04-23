@@ -23,9 +23,9 @@ module.exports = {
     announcementBar: {
       id: 'coming_soon', // Any value that will identify this message.
       content:
-        'We are currently building our site. All content should be considered experimental for now.',
-      backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      textColor: '#091E42', // Defaults to `#000`.
+        'Welcome to Start Your Lab! 😀 Please note that some sections of this site are still <b>under construction</b>. 🛠️',
+      backgroundColor: '#f6f7f8', // Defaults to `#fff`.
+      textColor: '#383843', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
     },
     image: 'img/og-image-large.png',
