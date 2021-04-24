@@ -9,7 +9,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stars][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -140,7 +140,9 @@ Start Your Lab is committed to fostering a welcoming community.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.md` for more information.
+This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by]. See `LICENSE.md` for more information.
+
+[![CC BY 4.0][cc-by-image]][cc-by]
 
 <!-- CONTACT -->
 ## Contact
@@ -166,6 +168,9 @@ Project Link: [https://github.com/startyourlab/website](https://github.com/start
 [stars-url]: https://github.com/staryourlab/website/stargazers
 [issues-shield]: https://img.shields.io/github/issues/startyourlab/website?style=for-the-badge
 [issues-url]: https://github.com/staryourlab/website/issues
-[license-shield]: https://img.shields.io/github/license/startyourlab/website?style=for-the-badge
-[license-url]: https://github.com/startyourlab/website/blob/main/LICENSE.md
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg?style=for-the-badge
+
 [product-screenshot]: static/img/product-screenshot.png
