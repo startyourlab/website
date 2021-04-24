@@ -174,4 +174,4 @@ The core Start Your Lab team will be monitoring for pull requests. Do help us by
 
 ## License {#license}
 
-By contributing to Start Your Lab, you agree that your contributions will be licensed under Creative Commons Attribution 4.0 International.
+By contributing to Start Your Lab, you agree that your contributions will be licensed under its MIT license.
