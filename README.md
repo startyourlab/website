@@ -166,7 +166,7 @@ Project Link: [https://github.com/startyourlab/website](https://github.com/start
 [stars-url]: https://github.com/staryourlab/website/stargazers
 [issues-shield]: https://img.shields.io/github/issues/startyourlab/website?style=for-the-badge
 [issues-url]: https://github.com/staryourlab/website/issues
-[license-shield]: https://img.shields.io/github/license/startyourlab/git-goals-tutorial?style=for-the-badge
-[license-url]: https://github.com/startyourlab/git-goals-tutorial/blob/main/LICENSE.md
+[license-shield]: https://img.shields.io/github/license/startyourlab/website?style=for-the-badge
+[license-url]: https://github.com/startyourlab/website/blob/production/LICENSE.md
 
 [product-screenshot]: static/img/product-screenshot.png
