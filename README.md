@@ -83,11 +83,11 @@ learn, inspire, and create. Any contributions you make are **greatly appreciated
 As an overview, the process for contributions is as follows:
 
 1. Fork the project
-3. Create your feature branch (`git checkout -b feature/amazing-feature`)
-4. Commit your changes (`git commit -m 'Add some amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a pull request for review
-7. Approved pull requests will be merged into the main project
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a pull request for review
+6. Approved pull requests will be merged into the main project
 
 To get started as a contributor to Start Your Lab's `docs` or `blog`, follow the detailed
 steps below.
