@@ -48,7 +48,7 @@ function Article({ authors, year, title, journal, volume, issue, page, DOI }) {
 
   return (
     <div className="row">
-      <p className="referenceItem">
+      <p className={styles.referenceItem}>
         {authorList} ({year}). <b>{title}</b>. <i>{journal}, {volume}</i>({issue}), {page}. <Link to={"https://doi.org/".concat(DOI)}>https://doi.org/{DOI}</Link>
       </p>
     </div>
