@@ -9,32 +9,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Built for Academic Researchers',
+    title: 'Made for academic researchers',
     imageUrl: 'img/for-academics.svg',
     description: (
       <>
-        Start Your Lab is an open-source project to provide guidance and
-        support to academic research labs throughout their journey to adopt modern tools.
+        Start Your Lab is an open-source platform that teaches academic research labs how to get started with modern tools for modern science.
       </>
     ),
   },
   {
-    title: 'Collaborate using Digital Tools',
+    title: 'Tools designed for teamwork',
     imageUrl: 'img/collaborate-with-digital-tools.svg',
     description: (
       <>
-        Digital collaboration tools like GitHub and Slack are more accessible than ever, and
-        Start Your Lab will help you learn how to use them.
+        Learn how to setup and work with software tools that are designed to help teams collaborate efficiently and effectively on complex projects.
       </>
     ),
   },
   {
-    title: 'Best Practices for Modern Science',
+    title: 'Informed by industry experts',
     imageUrl: 'img/best-practices.svg',
     description: (
       <>
-        Start Your Lab partners with industry advisors to develop a collection of
-        best practices for managing teams, projects, and code in scientific research.
+        A small team of academic researchers develops the core guides, tutorials, and templates on Start Your Lab with the help of industry advisors.
       </>
     ),
   },
