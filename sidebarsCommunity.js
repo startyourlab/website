@@ -1,9 +1,3 @@
 module.exports = {
-  community: [
-    'support',
-    'team',
-    'labs',
-    'resources',
-    'contributing',
-  ],
+  community: ['support', 'team', 'labs', 'resources', 'contributing'],
 };

@@ -3,6 +3,7 @@ id: contributing
 title: Contributing
 description: Learn how you can contribute to Start Your Lab. We welcome community contributions.
 ---
+
 <!-- Much of the content adapted from Docusaurus v2's contributing documentation -->
 
 [Start Your Lab](https://www.startyourlab.com/) is currently in development. We have [early adopters who already use our Start Your Lab to work more effectively and efficiently together](/community/labs). We welcome you to collaborate with us on Start Your Lab's materials as a contributor.

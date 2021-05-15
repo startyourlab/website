@@ -13,7 +13,8 @@ const features = [
     imageUrl: 'img/for-academics.svg',
     description: (
       <>
-        Start Your Lab is an open-source platform that teaches academic research labs how to get started with modern tools for modern science.
+        Start Your Lab is an open-source platform that teaches academic research
+        labs how to get started with modern tools for modern science.
       </>
     ),
   },
@@ -22,7 +23,8 @@ const features = [
     imageUrl: 'img/collaborate-with-digital-tools.svg',
     description: (
       <>
-        Learn how to setup and work with software tools that are designed to help teams collaborate efficiently and effectively on complex projects.
+        Learn how to setup and work with software tools that are designed to
+        help teams collaborate efficiently and effectively on complex projects.
       </>
     ),
   },
@@ -31,13 +33,15 @@ const features = [
     imageUrl: 'img/best-practices.svg',
     description: (
       <>
-        A small team of academic researchers develops the core guides, tutorials, and templates on Start Your Lab with the help of industry advisors.
+        A small team of academic researchers develops the core guides,
+        tutorials, and templates on Start Your Lab with the help of industry
+        advisors.
       </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -56,13 +60,13 @@ function Feature({imageUrl, title, description}) {
 
 // https://github.com/shashankcic/react-particlesjs/blob/master/src/config/particlesConfig.js
 const particlesConfig = {
-  'particles': {
+  particles: {
     number: {
       value: 40,
       density: {
         enable: true,
-        'value_area': 400,
-      }
+        value_area: 400,
+      },
     },
     size: {
       value: 4,
@@ -81,7 +85,7 @@ const particlesConfig = {
         color: '#355b76',
       },
     },
-    'line_linked': {
+    line_linked: {
       enable: true,
       distance: 180,
       color: '#ccd2d8',
@@ -92,10 +96,10 @@ const particlesConfig = {
       enable: true,
       speed: 1,
       bounce: true,
-    }
+    },
   },
-  'interactivity': {
-    'detect_on': 'canvas',
+  interactivity: {
+    detect_on: 'canvas',
     events: {
       onhover: {
         enable: true,
@@ -103,23 +107,21 @@ const particlesConfig = {
       },
     },
   },
-  'retina_detect': true,
+  retina_detect: true,
 };
 
 export default function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig: {customFields = {}, tagline} = {}} = context;
+  const { siteConfig: { customFields = {}, tagline } = {} } = context;
   return (
     <Layout title={tagline} description={customFields.description}>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>   
+      <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <Particles params={particlesConfig} />
         <div className={styles.heroContent}>
           <h1 className="hero__title">{tagline}</h1>
           <div className={styles.buttons}>
             <Link
-              className={clsx(
-                'button button--primary button--lg',
-              )}
+              className={clsx('button button--primary button--lg')}
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>

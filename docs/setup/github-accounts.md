@@ -29,7 +29,7 @@ Choose a username that **represents your actual name**. On GitHub, usernames ide
 
 #### Email address
 
-Use your **personal email** (e.g. your Gmail, Hotmail, or similar address) when signing up, *not* your school or employer email. This will allow you to continue to collaborate from the same account and maintain a history of your contributions, regardless of changes to your student or employment status.
+Use your **personal email** (e.g. your Gmail, Hotmail, or similar address) when signing up, _not_ your school or employer email. This will allow you to continue to collaborate from the same account and maintain a history of your contributions, regardless of changes to your student or employment status.
 
 **If you already have an account**, then the next step is to [configure it](#configure-your-account).
 
@@ -58,5 +58,4 @@ If your lab does not have a GitHub organization, talk to your lab's director abo
 
 ### Set your membership visibility
 
-Choose whether your membership in the organization is **private** or **public**. You can make this choice once you've joined your lab's organization on the "members" page. This doesn't affect your visibility within the organization - you are always visible to other organization members. If you choose *private* , outside people will not see you listed when viewing members of the GitHub organization. If you select *public*, anyone will be able to see that you are a member of this organization. Generally, we recommend selecting **public** membership, but if you are concerned about privacy or similar issues, private membership is completely fine.
-
+Choose whether your membership in the organization is **private** or **public**. You can make this choice once you've joined your lab's organization on the "members" page. This doesn't affect your visibility within the organization - you are always visible to other organization members. If you choose _private_ , outside people will not see you listed when viewing members of the GitHub organization. If you select _public_, anyone will be able to see that you are a member of this organization. Generally, we recommend selecting **public** membership, but if you are concerned about privacy or similar issues, private membership is completely fine.

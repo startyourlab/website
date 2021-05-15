@@ -24,10 +24,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Useful Concepts',
-      items: [
-        'concepts/command-line',
-        'concepts/text-editors',
-      ],
+      items: ['concepts/command-line', 'concepts/text-editors'],
     },
     {
       type: 'doc',

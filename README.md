@@ -5,11 +5,8 @@
 *** for contributors-url, forks-url, etc. Alternative option for links:
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stars][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
+[![Contributors][contributors-shield]][contributors-url] [![Forks][forks-shield]][forks-url] [![Stars][stars-shield]][stars-url] [![Issues][issues-shield]][issues-url] [![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -31,8 +28,6 @@
     <a href="https://github.com/startyourlab/website/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -63,24 +58,23 @@
 
 [![Start Your Lab Screen Shot][product-screenshot]](https://www.startyourlab.com)
 
-Start Your Lab is an open-source initiative to teach academic research
-labs how to leverage modern tools and support them with industry best practices.
+Start Your Lab is an open-source initiative to teach academic research labs how to leverage modern tools and support them with industry best practices.
 
 ### Built With
 
-* [Docusaurus 2](https://v2.docusaurus.io/)
+- [Docusaurus 2](https://v2.docusaurus.io/)
 
 <!-- TODO: ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/startyourlab/website/issues) for a list of proposed features (and known issues).
 
 <!-- TODO: CONTRIBUTING -->
+
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be
-learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-As an overview, the process for contributions is as follows:
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. As an overview, the process for contributions is as follows:
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -89,21 +83,17 @@ As an overview, the process for contributions is as follows:
 5. Open a pull request for review
 6. Approved pull requests will be merged into the main project
 
-To get started as a contributor to Start Your Lab's `docs` or `blog`, follow the detailed
-steps below.
+To get started as a contributor to Start Your Lab's `docs` or `blog`, follow the detailed steps below.
 
 ### Prerequisites
 
-You must have the Node, NPM, and [Yarn](https://yarnpkg.com)
-command line tools installed on your local machine in order to contribute to this project.
+You must have the Node, NPM, and [Yarn](https://yarnpkg.com) command line tools installed on your local machine in order to contribute to this project.
 
 Please see [Yarn's installation guide](https://yarnpkg.com/getting-started/install).
 
 ### Installation
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
-For the best developer experience, we suggest cloning this repository to your local computer. Once you
-have cloned the repository, navigate into it and run the following from the root of the repository.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. For the best developer experience, we suggest cloning this repository to your local computer. Once you have cloned the repository, navigate into it and run the following from the root of the repository.
 
 ```console
 yarn install
@@ -138,11 +128,13 @@ Start Your Lab is committed to fostering a welcoming community.
 [View our Code of Conduct](https://github.com/startyourlab/.github/tree/main/CODE_OF_CONDUCT.md) for our GitHub organization.
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
 
 <!-- CONTACT -->
+
 ## Contact
 
 Start Your Lab - [@startyourlab](https://twitter.com/startyourlab) - ari@startyourlab.com
@@ -150,14 +142,16 @@ Start Your Lab - [@startyourlab](https://twitter.com/startyourlab) - ari@startyo
 Project Link: [https://github.com/startyourlab/website](https://github.com/startyourlab/website)
 
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Best README Template](https://github.com/othneildrew/Best-README-Template)
-* [Freepik](https://www.freepik.com/)
-* [React TypeScript Particles](https://www.npmjs.com/package/react-tsparticles)
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [Freepik](https://www.freepik.com/)
+- [React TypeScript Particles](https://www.npmjs.com/package/react-tsparticles)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/startyourlab/website?style=for-the-badge
 [contributors-url]: https://github.com/startyourlab/website/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/startyourlab/website?style=for-the-badge
@@ -168,5 +162,4 @@ Project Link: [https://github.com/startyourlab/website](https://github.com/start
 [issues-url]: https://github.com/staryourlab/website/issues
 [license-shield]: https://img.shields.io/github/license/startyourlab/website?style=for-the-badge
 [license-url]: https://github.com/startyourlab/website/blob/production/LICENSE.md
-
 [product-screenshot]: static/img/product-screenshot.png

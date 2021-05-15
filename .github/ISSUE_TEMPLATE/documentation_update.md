@@ -1,14 +1,14 @@
 ---
 name: "\U0001F4D6 Documentation update"
 about: Suggest an update to improve our documentation
-title: "[Docs] "
+title: '[Docs] '
 labels: documentation, needs triage
 assignees: ''
-
 ---
 
 <!-- If your request is unrelated to existing documentation, please try a feature request instead. -->
-## Documentation link 
+
+## Documentation link
 
 Add a link to the page which needs improvement.
 

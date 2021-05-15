@@ -9,7 +9,7 @@ import React from 'react';
 import Translate from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 
-function WebsiteLink({to, children}) {
+function WebsiteLink({ to, children }) {
   return (
     <Link to={to}>
       {children || (
@@ -19,14 +19,23 @@ function WebsiteLink({to, children}) {
   );
 }
 
-function TeamProfileCard({className, name, pronouns, children, githubUrl, twitterUrl, linkedinUrl, photoUrl}) {
+function TeamProfileCard({
+  className,
+  name,
+  pronouns,
+  children,
+  githubUrl,
+  twitterUrl,
+  linkedinUrl,
+  photoUrl,
+}) {
   return (
     <div className={className}>
       <div className="card card--full-height">
         <div className="card__header">
           <div className="avatar avatar--vertical">
             {/* GitHub URL returns photo when no photoUrl specified  */}
-            {(githubUrl && !photoUrl) && (
+            {githubUrl && !photoUrl && (
               <img
                 className="avatar__photo avatar__photo--xl"
                 src={githubUrl + '.png'}
@@ -88,7 +97,15 @@ export function ActiveTeamRow() {
         twitterUrl="https://twitter.com/adyckovsky"
         linkedinUrl="https://www.linkedin.com/in/aridyckovsky/">
         <Translate id="team.profile.Ari Dyckovsky.body">
-          Ari is the creator and core maintainer of Start Your Lab. He is also an incoming Ph.D. student in Social Psychology and a Centennial Fellow at Princeton University (starting Fall 2021). Ari's research focuses on the application of artificial intelligence to facilitate collective problem-solving and collaborative processes on a global scale. With a breadth of experiences across physics, mathematics, finance, and software, he hopes to bring modern tools to the forefront of the social sciences, with a nod toward increased interdisciplinary work between fields and industries.
+          Ari is the creator and core maintainer of Start Your Lab. He is also
+          an incoming Ph.D. student in Social Psychology and a Centennial Fellow
+          at Princeton University (starting Fall 2021). Ari's research focuses
+          on the application of artificial intelligence to facilitate collective
+          problem-solving and collaborative processes on a global scale. With a
+          breadth of experiences across physics, mathematics, finance, and
+          software, he hopes to bring modern tools to the forefront of the
+          social sciences, with a nod toward increased interdisciplinary work
+          between fields and industries.
         </Translate>
       </TeamProfileCardCol>
       <TeamProfileCardCol
@@ -103,7 +120,7 @@ export function ActiveTeamRow() {
             website: <WebsiteLink to="https://www.sokolhessnerlab.com/" />,
           }}>
           {
-            'Peter is an Assistant Professor of Psychology at the University of Denver and the director of the Sokol-Hessner Lab. He received his Ph.D. from New York University, and did postdoctoral fellowships at the California Institute of Technology and New York University. Peter\'s research focuses on the intersection between emotion and decision-making, leveraging tools and perspectives from psychology, economics, and neuroscience to examine the cognitive and neural mechanisms underlying valuation and choice. His work entails computational analysis of behavior and physiology (including brain imaging). Learn more on his lab\'s {website}.'
+            "Peter is an Assistant Professor of Psychology at the University of Denver and the director of the Sokol-Hessner Lab. He received his Ph.D. from New York University, and did postdoctoral fellowships at the California Institute of Technology and New York University. Peter's research focuses on the intersection between emotion and decision-making, leveraging tools and perspectives from psychology, economics, and neuroscience to examine the cognitive and neural mechanisms underlying valuation and choice. His work entails computational analysis of behavior and physiology (including brain imaging). Learn more on his lab's {website}."
           }
         </Translate>
       </TeamProfileCardCol>
@@ -137,7 +154,11 @@ export function IndustryAdvisorRow() {
         linkedinUrl="https://www.linkedin.com/in/ayushsood/"
         photoUrl="https://media-exp1.licdn.com/dms/image/C5603AQGToLXz7ucANA/profile-displayphoto-shrink_800_800/0/1606283709750?e=1623888000&v=beta&t=_ACZbwOqNaktX_c84n-jh-8cKxCny0V_DbT2dSDuK44">
         <Translate id="team.profile.Ayush Sood.body">
-          Ayush currently runs the developer ecosystem at Facebook as an Engineering Manager. He previously co-founded a couple of companies in the data infrastructure space, and has built products with teams at Palantir and Dropbox. Ayush received his B.S. in Computer Science and Electrical Engineering from Stanford University.
+          Ayush currently runs the developer ecosystem at Facebook as an
+          Engineering Manager. He previously co-founded a couple of companies in
+          the data infrastructure space, and has built products with teams at
+          Palantir and Dropbox. Ayush received his B.S. in Computer Science and
+          Electrical Engineering from Stanford University.
         </Translate>
       </TeamProfileCardCol>
       {/*<TeamProfileCardCol

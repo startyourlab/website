@@ -13,7 +13,8 @@ module.exports = {
   organizationName: 'startyourlab', // Usually your GitHub org/user name.
   projectName: 'website', // Usually your repo name.
   customFields: {
-    description: 'Start Your Lab is an open-source platform that teaches academic research teams how to work together effectively, reliably, and efficiently.'
+    description:
+      'Start Your Lab is an open-source platform that teaches academic research teams how to work together effectively, reliably, and efficiently.',
   },
   themeConfig: {
     googleAnalytics: {
@@ -43,7 +44,7 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        { to: 'blog', label: 'Blog', position: 'right' },
         {
           to: 'community/support',
           label: 'Community',
@@ -115,7 +116,7 @@ module.exports = {
             {
               label: 'Icons by Freepik',
               href: 'https://www.freepik.com',
-            }
+            },
           ],
         },
       ],
@@ -132,15 +133,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/startyourlab/website/edit/production',
+          editUrl: 'https://github.com/startyourlab/website/edit/production',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/startyourlab/website/edit/production',
+          editUrl: 'https://github.com/startyourlab/website/edit/production',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -148,9 +147,7 @@ module.exports = {
       },
     ],
   ],
-  stylesheets: [
-    'https://fonts.googleapis.com/css?family=Source+Code+Pro',
-  ],
+  stylesheets: ['https://fonts.googleapis.com/css?family=Source+Code+Pro'],
   plugins: [
     [
       '@docusaurus/plugin-sitemap',
@@ -170,8 +167,7 @@ module.exports = {
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
         sidebarPath: require.resolve('./sidebarsCommunity.js'),
-        editUrl:
-          'https://github.com/startyourlab/website/edit/production',
+        editUrl: 'https://github.com/startyourlab/website/edit/production',
       },
     ],
     [

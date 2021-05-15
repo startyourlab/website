@@ -20,6 +20,7 @@ The terms below are ordered roughly in terms of anticipated relevance to new use
 GitHub is based on ideas about how to help people collaborate effectively. Knowing what some of these ideas or goals are can help new users understand not just what or how, but _why_ things look and operate like they do.
 
 Some of the central ideas include
+
 - **Make changes in chunks.** Whether solving problems or adding something, do it one thing at a time. See [branches](#branch), [commits](#commit), and [pull requests](#pull-request), among others.
 - **Describe what you're doing.** When making a single small change (see: [commit](#commit)) or a bunch of bigger changes (see: [pull request](#pull-request)), leave an informative note that describes that change. Allow flexible and interconnected naming of things like [branches](#branches), [issues](#issue), and more.
 - **Track everything.** Keep track of _who_ does _what_ and _when_. Don't ever truly delete any conversations, messages, or documents. Log every event.
@@ -74,7 +75,7 @@ Repositories can have hundreds or thousands of issues and/or pull requests - so 
 
 ### Workspace
 
-**Workspaces** are for organizations or groups that communicate frequently. A lab, class, or interest group might have a Slack workspace they share. Workspaces contain multiple [channels](#channel), and a group of connected users. 
+**Workspaces** are for organizations or groups that communicate frequently. A lab, class, or interest group might have a Slack workspace they share. Workspaces contain multiple [channels](#channel), and a group of connected users.
 
 ### Channel
 
