@@ -59,7 +59,7 @@ function Article({ authors, year, title, journal, volume, issue, page, DOI }) {
         </i>
         {issue ? `(${issue})` : ''}
         {page ? `, ${page}` : ''}.{' '}
-        <Link to={'https://doi.org/'.concat(DOI)}>https://doi.org/{DOI}</Link>
+        <Link to={'https://doi.org/'.concat(DOI)}>Link to article</Link>
       </p>
     </div>
   );
