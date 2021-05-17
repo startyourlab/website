@@ -8,9 +8,27 @@ module.exports = {
       type: 'category',
       label: 'Setup',
       items: [
-        'setup/github-accounts',
-        'setup/github-organizations',
-        'setup/github-desktop',
+        {
+          type: 'category',
+          label: 'GitHub',
+          items: [
+            {
+              type: 'doc',
+              id: 'setup/github-accounts',
+              label: '1. User Account',
+            },
+            {
+              type: 'doc',
+              id: 'setup/github-desktop',
+              label: '2. Desktop Application',
+            },
+            {
+              type: 'doc',
+              id: 'setup/github-organizations',
+              label: '3. Lab Organization',
+            },
+          ],
+        },
       ],
     },
     {
@@ -19,6 +37,15 @@ module.exports = {
       items: [
         // 'tutorials/your-first-commit',
         'tutorials/git-goals',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Workflows',
+      items: [
+        'workflows/project-management/issue-per-branch',
+        'workflows/project-management/commit-per-idea',
+        'workflows/project-management/fork-and-pull',
       ],
     },
     {
