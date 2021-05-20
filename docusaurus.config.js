@@ -4,7 +4,7 @@ const baseUrl = process.env.BASE_URL || '/';
 
 module.exports = {
   title: 'Start Your Lab',
-  tagline: 'Use modern tools to do your best science together.',
+  tagline: 'Use modern tools to do your best science together',
   url: 'https://www.startyourlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -33,7 +33,7 @@ module.exports = {
     navbar: {
       //title: 'Start Your Lab',
       logo: {
-        alt: 'Start Your Lab Logo',
+        alt: 'Start Your Lab',
         src: 'img/logo.svg',
         srcDark: '/img/logo-dark.svg',
       },
